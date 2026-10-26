@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Secrets & User Data
+config.py
+authorized_users.json
+*.json
+!kline_data.json  # Nếu bạn muốn giữ data mẫu, bỏ dấu ! nếu muốn ẩn luôn
+
+# Logs & Data
+logs/
+*.log
+signal_report.csv
+trade_history.csv
+equity_curve.png
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+.matplotlib/
