@@ -1,0 +1,449 @@
+{
+  "universe_symbols": 798,
+  "eligible_symbols": 798,
+  "excluded_symbols": [],
+  "start_ms": 1791646980000,
+  "split_ms": 1792510980000,
+  "end_ms_exclusive": 1792942980000,
+  "training_selection": {
+    "v2": {
+      "policy": "stop_x1.5_tp_2R_max_60m",
+      "train_evaluated": 84699,
+      "train_net_mean_pct_assumed": -0.20488784568139617
+    },
+    "v3": {
+      "policy": "stop_x1_tp_2R_max_15m",
+      "train_evaluated": 50027,
+      "train_net_mean_pct_assumed": -0.20037271015755864
+    }
+  },
+  "holdout": {
+    "v2": {
+      "selected": {
+        "statuses": {
+          "evaluated": 41857,
+          "invalid_stop": 297,
+          "target_passed_before_entry": 468,
+          "invalidated_before_entry": 29,
+          "censored_end": 72,
+          "no_trade_zero_volume_entry": 72,
+          "censored_no_liquidity_exit": 40
+        },
+        "evaluated": 41857,
+        "gross_mean_pct": -0.025498176060363236,
+        "net_mean_pct_assumed": -0.22549817606036338,
+        "net_positive_fraction_assumed": 0.33812743388202693,
+        "exit_reasons": {
+          "stop": 25032,
+          "target": 14377,
+          "timeout": 2448
+        },
+        "ambiguous_same_minute_stop_first": 241
+      },
+      "reference": {
+        "statuses": {
+          "evaluated": 41223,
+          "invalid_stop": 987,
+          "target_passed_before_entry": 468,
+          "invalidated_before_entry": 29,
+          "censored_end": 31,
+          "no_trade_zero_volume_entry": 72,
+          "censored_no_liquidity_exit": 25
+        },
+        "evaluated": 41223,
+        "gross_mean_pct": -0.01511302282017327,
+        "net_mean_pct_assumed": -0.21511302282017375,
+        "net_positive_fraction_assumed": 0.3119617689154113,
+        "exit_reasons": {
+          "stop": 23521,
+          "target": 15989,
+          "timeout": 1713
+        },
+        "ambiguous_same_minute_stop_first": 783
+      }
+    },
+    "v3": {
+      "selected": {
+        "statuses": {
+          "evaluated": 24336,
+          "censored_no_liquidity_exit": 364,
+          "censored_end": 49,
+          "invalid_stop": 37,
+          "no_trade_zero_volume_entry": 623,
+          "invalidated_before_entry": 7
+        },
+        "evaluated": 24336,
+        "gross_mean_pct": -0.0017226014087516378,
+        "net_mean_pct_assumed": -0.20172260140875167,
+        "net_positive_fraction_assumed": 0.27662721893491127,
+        "exit_reasons": {
+          "timeout": 15196,
+          "stop": 6975,
+          "target": 2165
+        },
+        "ambiguous_same_minute_stop_first": 18
+      },
+      "reference": {
+        "statuses": {
+          "evaluated": 24428,
+          "censored_end": 57,
+          "invalid_stop": 37,
+          "no_trade_zero_volume_entry": 623,
+          "censored_no_liquidity_exit": 264,
+          "invalidated_before_entry": 7
+        },
+        "evaluated": 24428,
+        "gross_mean_pct": -0.007855147731304534,
+        "net_mean_pct_assumed": -0.20785514773130448,
+        "net_positive_fraction_assumed": 0.3319141968233175,
+        "exit_reasons": {
+          "timeout": 9306,
+          "target": 5482,
+          "stop": 9640
+        },
+        "ambiguous_same_minute_stop_first": 27
+      }
+    }
+  },
+  "holdout_by_contract_and_quote": {
+    "CURRENT_QUARTER|USDT": {
+      "symbols": 2,
+      "v2": {
+        "statuses": {
+          "evaluated": 65,
+          "no_trade_zero_volume_entry": 2
+        },
+        "evaluated": 65,
+        "gross_mean_pct": -0.027989757796967978,
+        "net_mean_pct_assumed": -0.227989757796968,
+        "net_positive_fraction_assumed": 0.3230769230769231,
+        "exit_reasons": {
+          "target": 18,
+          "timeout": 12,
+          "stop": 35
+        },
+        "ambiguous_same_minute_stop_first": 0
+      },
+      "v3": {
+        "statuses": {
+          "evaluated": 37,
+          "no_trade_zero_volume_entry": 8,
+          "censored_no_liquidity_exit": 2
+        },
+        "evaluated": 37,
+        "gross_mean_pct": -0.014894716680309112,
+        "net_mean_pct_assumed": -0.21489471668030916,
+        "net_positive_fraction_assumed": 0.05405405405405406,
+        "exit_reasons": {
+          "timeout": 22,
+          "stop": 13,
+          "target": 2
+        },
+        "ambiguous_same_minute_stop_first": 0
+      }
+    },
+    "NEXT_QUARTER|USDT": {
+      "symbols": 2,
+      "v2": {
+        "statuses": {
+          "no_trade_zero_volume_entry": 4,
+          "evaluated": 16,
+          "target_passed_before_entry": 1
+        },
+        "evaluated": 16,
+        "gross_mean_pct": 0.07265555029949637,
+        "net_mean_pct_assumed": -0.1273444497005036,
+        "net_positive_fraction_assumed": 0.375,
+        "exit_reasons": {
+          "target": 5,
+          "stop": 8,
+          "timeout": 3
+        },
+        "ambiguous_same_minute_stop_first": 0
+      },
+      "v3": {
+        "statuses": {
+          "no_trade_zero_volume_entry": 12,
+          "evaluated": 4,
+          "censored_no_liquidity_exit": 5
+        },
+        "evaluated": 4,
+        "gross_mean_pct": -0.12157553498075029,
+        "net_mean_pct_assumed": -0.32157553498075025,
+        "net_positive_fraction_assumed": 0.0,
+        "exit_reasons": {
+          "stop": 2,
+          "timeout": 2
+        },
+        "ambiguous_same_minute_stop_first": 0
+      }
+    },
+    "PERPETUAL|BTC": {
+      "symbols": 1,
+      "v2": {
+        "statuses": {},
+        "evaluated": 0,
+        "gross_mean_pct": null,
+        "net_mean_pct_assumed": null,
+        "net_positive_fraction_assumed": null,
+        "exit_reasons": {},
+        "ambiguous_same_minute_stop_first": 0
+      },
+      "v3": {
+        "statuses": {
+          "evaluated": 1,
+          "no_trade_zero_volume_entry": 2
+        },
+        "evaluated": 1,
+        "gross_mean_pct": 0.03457336467986123,
+        "net_mean_pct_assumed": -0.1654266353201388,
+        "net_positive_fraction_assumed": 0.0,
+        "exit_reasons": {
+          "timeout": 1
+        },
+        "ambiguous_same_minute_stop_first": 0
+      }
+    },
+    "PERPETUAL|U": {
+      "symbols": 2,
+      "v2": {
+        "statuses": {
+          "evaluated": 19,
+          "no_trade_zero_volume_entry": 2
+        },
+        "evaluated": 19,
+        "gross_mean_pct": -0.049963339333293645,
+        "net_mean_pct_assumed": -0.24996333933329365,
+        "net_positive_fraction_assumed": 0.10526315789473684,
+        "exit_reasons": {
+          "target": 7,
+          "stop": 10,
+          "timeout": 2
+        },
+        "ambiguous_same_minute_stop_first": 0
+      },
+      "v3": {
+        "statuses": {
+          "censored_no_liquidity_exit": 3,
+          "evaluated": 3,
+          "no_trade_zero_volume_entry": 6
+        },
+        "evaluated": 3,
+        "gross_mean_pct": -0.10714008697313952,
+        "net_mean_pct_assumed": -0.30714008697313955,
+        "net_positive_fraction_assumed": 0.0,
+        "exit_reasons": {
+          "timeout": 2,
+          "stop": 1
+        },
+        "ambiguous_same_minute_stop_first": 0
+      }
+    },
+    "PERPETUAL|USD1": {
+      "symbols": 2,
+      "v2": {
+        "statuses": {
+          "evaluated": 73,
+          "censored_no_liquidity_exit": 1,
+          "no_trade_zero_volume_entry": 3
+        },
+        "evaluated": 73,
+        "gross_mean_pct": -0.06828966624946312,
+        "net_mean_pct_assumed": -0.26828966624946304,
+        "net_positive_fraction_assumed": 0.1780821917808219,
+        "exit_reasons": {
+          "timeout": 13,
+          "stop": 43,
+          "target": 17
+        },
+        "ambiguous_same_minute_stop_first": 1
+      },
+      "v3": {
+        "statuses": {
+          "no_trade_zero_volume_entry": 4,
+          "evaluated": 11
+        },
+        "evaluated": 11,
+        "gross_mean_pct": -0.10959039611652695,
+        "net_mean_pct_assumed": -0.30959039611652694,
+        "net_positive_fraction_assumed": 0.09090909090909091,
+        "exit_reasons": {
+          "timeout": 8,
+          "stop": 3
+        },
+        "ambiguous_same_minute_stop_first": 0
+      }
+    },
+    "PERPETUAL|USDC": {
+      "symbols": 38,
+      "v2": {
+        "statuses": {
+          "evaluated": 2433,
+          "target_passed_before_entry": 11,
+          "no_trade_zero_volume_entry": 1,
+          "censored_end": 7,
+          "invalidated_before_entry": 1,
+          "censored_no_liquidity_exit": 1
+        },
+        "evaluated": 2433,
+        "gross_mean_pct": -0.0446503601271313,
+        "net_mean_pct_assumed": -0.2446503601271313,
+        "net_positive_fraction_assumed": 0.3033292231812577,
+        "exit_reasons": {
+          "target": 745,
+          "stop": 1523,
+          "timeout": 165
+        },
+        "ambiguous_same_minute_stop_first": 7
+      },
+      "v3": {
+        "statuses": {
+          "evaluated": 1208,
+          "censored_end": 6,
+          "no_trade_zero_volume_entry": 10,
+          "censored_no_liquidity_exit": 11
+        },
+        "evaluated": 1208,
+        "gross_mean_pct": -0.00988490503181753,
+        "net_mean_pct_assumed": -0.20988490503181748,
+        "net_positive_fraction_assumed": 0.271523178807947,
+        "exit_reasons": {
+          "timeout": 809,
+          "stop": 313,
+          "target": 86
+        },
+        "ambiguous_same_minute_stop_first": 0
+      }
+    },
+    "PERPETUAL|USDT": {
+      "symbols": 526,
+      "v2": {
+        "statuses": {
+          "evaluated": 31224,
+          "invalid_stop": 187,
+          "target_passed_before_entry": 313,
+          "invalidated_before_entry": 12,
+          "censored_end": 53,
+          "no_trade_zero_volume_entry": 3
+        },
+        "evaluated": 31224,
+        "gross_mean_pct": -0.027616795901430152,
+        "net_mean_pct_assumed": -0.22761679590143039,
+        "net_positive_fraction_assumed": 0.3474891109403023,
+        "exit_reasons": {
+          "stop": 18759,
+          "target": 10893,
+          "timeout": 1572
+        },
+        "ambiguous_same_minute_stop_first": 207
+      },
+      "v3": {
+        "statuses": {
+          "evaluated": 18776,
+          "censored_no_liquidity_exit": 35,
+          "censored_end": 40,
+          "invalid_stop": 10,
+          "no_trade_zero_volume_entry": 53
+        },
+        "evaluated": 18776,
+        "gross_mean_pct": -0.0008313278689194519,
+        "net_mean_pct_assumed": -0.2008313278689195,
+        "net_positive_fraction_assumed": 0.2885598636557307,
+        "exit_reasons": {
+          "timeout": 11805,
+          "stop": 5321,
+          "target": 1650
+        },
+        "ambiguous_same_minute_stop_first": 8
+      }
+    },
+    "TRADIFI_PERPETUAL|USD1": {
+      "symbols": 1,
+      "v2": {
+        "statuses": {
+          "evaluated": 15,
+          "invalidated_before_entry": 1,
+          "target_passed_before_entry": 1,
+          "no_trade_zero_volume_entry": 2
+        },
+        "evaluated": 15,
+        "gross_mean_pct": 0.15974018046853944,
+        "net_mean_pct_assumed": -0.040259819531460544,
+        "net_positive_fraction_assumed": 0.26666666666666666,
+        "exit_reasons": {
+          "target": 6,
+          "stop": 9
+        },
+        "ambiguous_same_minute_stop_first": 0
+      },
+      "v3": {
+        "statuses": {
+          "evaluated": 25,
+          "no_trade_zero_volume_entry": 8,
+          "censored_no_liquidity_exit": 1
+        },
+        "evaluated": 25,
+        "gross_mean_pct": -0.0348471798969541,
+        "net_mean_pct_assumed": -0.23484717989695422,
+        "net_positive_fraction_assumed": 0.32,
+        "exit_reasons": {
+          "stop": 13,
+          "target": 5,
+          "timeout": 7
+        },
+        "ambiguous_same_minute_stop_first": 1
+      }
+    },
+    "TRADIFI_PERPETUAL|USDT": {
+      "symbols": 224,
+      "v2": {
+        "statuses": {
+          "evaluated": 8012,
+          "target_passed_before_entry": 142,
+          "censored_end": 12,
+          "invalid_stop": 110,
+          "invalidated_before_entry": 15,
+          "no_trade_zero_volume_entry": 55,
+          "censored_no_liquidity_exit": 38
+        },
+        "evaluated": 8012,
+        "gross_mean_pct": -0.01150034973970708,
+        "net_mean_pct_assumed": -0.211500349739707,
+        "net_positive_fraction_assumed": 0.3144033949076385,
+        "exit_reasons": {
+          "stop": 4645,
+          "target": 2686,
+          "timeout": 681
+        },
+        "ambiguous_same_minute_stop_first": 26
+      },
+      "v3": {
+        "statuses": {
+          "evaluated": 4271,
+          "no_trade_zero_volume_entry": 520,
+          "censored_no_liquidity_exit": 307,
+          "invalidated_before_entry": 7,
+          "invalid_stop": 27,
+          "censored_end": 3
+        },
+        "evaluated": 4271,
+        "gross_mean_pct": -0.0025685607890594576,
+        "net_mean_pct_assumed": -0.20256856078905944,
+        "net_positive_fraction_assumed": 0.22828377429173496,
+        "exit_reasons": {
+          "stop": 1309,
+          "timeout": 2540,
+          "target": 422
+        },
+        "ambiguous_same_minute_stop_first": 9
+      }
+    }
+  },
+  "confirmed_signal_counts": {
+    "v2": 129382,
+    "v3": 77794
+  },
+  "signal_caches_reused": 798,
+  "execution_rule": "next 1m open; structural stop widened by trained multiplier; target limited by trained R and prior opposing zone; tick-rounded; same-minute TP+SL assumes SL; adverse gap open; max hold 15/30/60m; 0.2pp cost",
+  "limitations": "Current trading contracts plus those entering SETTLING during the frozen window; contracts delisted before collection may be absent. OHLC has no intraminute path or real bid/ask/fills; no historical derivatives/depth/funding; independent signals, not a portfolio."
+}

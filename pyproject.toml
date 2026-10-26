@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+pythonpath = ["."]
+markers = [
+    "integration: marks tests that connect to real services (Ollama, Binance, Telegram)",
+]
+
+[tool.coverage.run]
+source = ["core", "notifiers"]
+omit = ["core/config.py", "*/__init__.py"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

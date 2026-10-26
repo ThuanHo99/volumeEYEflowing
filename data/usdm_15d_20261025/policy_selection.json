@@ -1,0 +1,1135 @@
+{
+  "train_start_ms": 1791646980000,
+  "train_end_ms_exclusive": 1792510980000,
+  "test_end_ms_exclusive": 1792942980000,
+  "cost_pct_assumed": 0.2,
+  "selection_rule": "maximum pooled mean net percent on first 10 days only",
+  "eligible_symbols": 798,
+  "selected": {
+    "v2": "stop_x1.5_tp_2R_max_60m",
+    "v3": "stop_x1_tp_2R_max_15m"
+  },
+  "training_details": {
+    "v2": {
+      "train_evaluated": 84699,
+      "train_net_mean_pct_assumed": -0.20488784568139617
+    },
+    "v3": {
+      "train_evaluated": 50027,
+      "train_net_mean_pct_assumed": -0.20037271015755864
+    }
+  },
+  "policy_grid": {
+    "v2": {
+      "stop_x1_tp_1R_max_15m": {
+        "statuses": {
+          "evaluated": 83565,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 105,
+          "censored_boundary": 20
+        },
+        "evaluated": 83565,
+        "gross_mean_pct": -0.009303799423014583,
+        "net_mean_pct_assumed": -0.20930379942301428,
+        "net_positive_fraction_assumed": 0.25696164662238974,
+        "exit_reasons": {
+          "target": 38040,
+          "stop": 39624,
+          "timeout": 5901
+        },
+        "ambiguous_same_minute_stop_first": 2006
+      },
+      "stop_x1_tp_1R_max_30m": {
+        "statuses": {
+          "evaluated": 83595,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 30,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 65
+        },
+        "evaluated": 83595,
+        "gross_mean_pct": -0.00930703298914162,
+        "net_mean_pct_assumed": -0.20930703298914172,
+        "net_positive_fraction_assumed": 0.2700041868532807,
+        "exit_reasons": {
+          "target": 40118,
+          "stop": 41668,
+          "timeout": 1809
+        },
+        "ambiguous_same_minute_stop_first": 2010
+      },
+      "stop_x1_tp_1R_max_60m": {
+        "statuses": {
+          "evaluated": 83634,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 30,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 26
+        },
+        "evaluated": 83634,
+        "gross_mean_pct": -0.008766560211056275,
+        "net_mean_pct_assumed": -0.2087665602110563,
+        "net_positive_fraction_assumed": 0.2738718702919865,
+        "exit_reasons": {
+          "target": 40782,
+          "stop": 42388,
+          "timeout": 464
+        },
+        "ambiguous_same_minute_stop_first": 2011
+      },
+      "stop_x1_tp_1.5R_max_15m": {
+        "statuses": {
+          "evaluated": 83532,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 132,
+          "censored_boundary": 26
+        },
+        "evaluated": 83532,
+        "gross_mean_pct": -0.008112111799084514,
+        "net_mean_pct_assumed": -0.20811211179908462,
+        "net_positive_fraction_assumed": 0.3008906766269214,
+        "exit_reasons": {
+          "timeout": 9208,
+          "stop": 44218,
+          "target": 30106
+        },
+        "ambiguous_same_minute_stop_first": 1319
+      },
+      "stop_x1_tp_1.5R_max_30m": {
+        "statuses": {
+          "evaluated": 83569,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 42,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 79
+        },
+        "evaluated": 83569,
+        "gross_mean_pct": -0.008527990984902594,
+        "net_mean_pct_assumed": -0.20852799098490266,
+        "net_positive_fraction_assumed": 0.31795282939846115,
+        "exit_reasons": {
+          "target": 32983,
+          "stop": 47379,
+          "timeout": 3207
+        },
+        "ambiguous_same_minute_stop_first": 1323
+      },
+      "stop_x1_tp_1.5R_max_60m": {
+        "statuses": {
+          "evaluated": 83611,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 45,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 34
+        },
+        "evaluated": 83611,
+        "gross_mean_pct": -0.0069629692089208444,
+        "net_mean_pct_assumed": -0.20696296920892068,
+        "net_positive_fraction_assumed": 0.3239286696726507,
+        "exit_reasons": {
+          "target": 34122,
+          "stop": 48569,
+          "timeout": 920
+        },
+        "ambiguous_same_minute_stop_first": 1326
+      },
+      "stop_x1_tp_2R_max_15m": {
+        "statuses": {
+          "evaluated": 83520,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 141,
+          "censored_boundary": 29
+        },
+        "evaluated": 83520,
+        "gross_mean_pct": -0.007471268860468629,
+        "net_mean_pct_assumed": -0.20747126886046863,
+        "net_positive_fraction_assumed": 0.30136494252873564,
+        "exit_reasons": {
+          "timeout": 12147,
+          "stop": 47086,
+          "target": 24287
+        },
+        "ambiguous_same_minute_stop_first": 855
+      },
+      "stop_x1_tp_2R_max_30m": {
+        "statuses": {
+          "evaluated": 83556,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 47,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 87
+        },
+        "evaluated": 83556,
+        "gross_mean_pct": -0.007743366426822,
+        "net_mean_pct_assumed": -0.20774336642682215,
+        "net_positive_fraction_assumed": 0.31860069893245246,
+        "exit_reasons": {
+          "target": 27692,
+          "stop": 51156,
+          "timeout": 4708
+        },
+        "ambiguous_same_minute_stop_first": 860
+      },
+      "stop_x1_tp_2R_max_60m": {
+        "statuses": {
+          "evaluated": 83598,
+          "target_passed_before_entry": 951,
+          "invalid_stop": 1671,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 50,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 42
+        },
+        "evaluated": 83598,
+        "gross_mean_pct": -0.0056454565358733865,
+        "net_mean_pct_assumed": -0.20564545653587338,
+        "net_positive_fraction_assumed": 0.3254503696260676,
+        "exit_reasons": {
+          "target": 29277,
+          "stop": 52833,
+          "timeout": 1488
+        },
+        "ambiguous_same_minute_stop_first": 863
+      },
+      "stop_x1.25_tp_1R_max_15m": {
+        "statuses": {
+          "evaluated": 84302,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 151,
+          "censored_boundary": 29
+        },
+        "evaluated": 84302,
+        "gross_mean_pct": -0.00894444777910932,
+        "net_mean_pct_assumed": -0.20894444777910923,
+        "net_positive_fraction_assumed": 0.30824891461649784,
+        "exit_reasons": {
+          "target": 36947,
+          "stop": 36823,
+          "timeout": 10532
+        },
+        "ambiguous_same_minute_stop_first": 1239
+      },
+      "stop_x1.25_tp_1R_max_30m": {
+        "statuses": {
+          "evaluated": 84339,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 49,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 94
+        },
+        "evaluated": 84339,
+        "gross_mean_pct": -0.009294894914611048,
+        "net_mean_pct_assumed": -0.20929489491461128,
+        "net_positive_fraction_assumed": 0.33136508614045695,
+        "exit_reasons": {
+          "target": 40355,
+          "stop": 40149,
+          "timeout": 3835
+        },
+        "ambiguous_same_minute_stop_first": 1243
+      },
+      "stop_x1.25_tp_1R_max_60m": {
+        "statuses": {
+          "evaluated": 84384,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 51,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 47
+        },
+        "evaluated": 84384,
+        "gross_mean_pct": -0.008469655623919246,
+        "net_mean_pct_assumed": -0.2084696556239194,
+        "net_positive_fraction_assumed": 0.339910409556314,
+        "exit_reasons": {
+          "target": 41724,
+          "stop": 41535,
+          "timeout": 1125
+        },
+        "ambiguous_same_minute_stop_first": 1246
+      },
+      "stop_x1.25_tp_1.5R_max_15m": {
+        "statuses": {
+          "evaluated": 84278,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 170,
+          "censored_boundary": 34
+        },
+        "evaluated": 84278,
+        "gross_mean_pct": -0.007825260174723335,
+        "net_mean_pct_assumed": -0.2078252601747234,
+        "net_positive_fraction_assumed": 0.33426279693395666,
+        "exit_reasons": {
+          "timeout": 15059,
+          "stop": 40697,
+          "target": 28522
+        },
+        "ambiguous_same_minute_stop_first": 788
+      },
+      "stop_x1.25_tp_1.5R_max_30m": {
+        "statuses": {
+          "evaluated": 84314,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 58,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 110
+        },
+        "evaluated": 84314,
+        "gross_mean_pct": -0.008231005743606315,
+        "net_mean_pct_assumed": -0.20823100574360648,
+        "net_positive_fraction_assumed": 0.36096022012951584,
+        "exit_reasons": {
+          "target": 32736,
+          "stop": 45376,
+          "timeout": 6202
+        },
+        "ambiguous_same_minute_stop_first": 795
+      },
+      "stop_x1.25_tp_1.5R_max_60m": {
+        "statuses": {
+          "evaluated": 84357,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 62,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 63
+        },
+        "evaluated": 84357,
+        "gross_mean_pct": -0.00624116947496156,
+        "net_mean_pct_assumed": -0.20624116947496174,
+        "net_positive_fraction_assumed": 0.3725831881171687,
+        "exit_reasons": {
+          "target": 34820,
+          "stop": 47520,
+          "timeout": 2017
+        },
+        "ambiguous_same_minute_stop_first": 799
+      },
+      "stop_x1.25_tp_2R_max_15m": {
+        "statuses": {
+          "evaluated": 84265,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 181,
+          "censored_boundary": 36
+        },
+        "evaluated": 84265,
+        "gross_mean_pct": -0.007686849140141921,
+        "net_mean_pct_assumed": -0.20768684914014224,
+        "net_positive_fraction_assumed": 0.30773156114638345,
+        "exit_reasons": {
+          "timeout": 18564,
+          "stop": 42975,
+          "target": 22726
+        },
+        "ambiguous_same_minute_stop_first": 493
+      },
+      "stop_x1.25_tp_2R_max_30m": {
+        "statuses": {
+          "evaluated": 84299,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 61,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 122
+        },
+        "evaluated": 84299,
+        "gross_mean_pct": -0.008230475223850718,
+        "net_mean_pct_assumed": -0.20823047522385052,
+        "net_positive_fraction_assumed": 0.3304428285033037,
+        "exit_reasons": {
+          "target": 27292,
+          "stop": 48679,
+          "timeout": 8328
+        },
+        "ambiguous_same_minute_stop_first": 502
+      },
+      "stop_x1.25_tp_2R_max_60m": {
+        "statuses": {
+          "evaluated": 84342,
+          "target_passed_before_entry": 952,
+          "invalid_stop": 878,
+          "invalidated_before_entry": 88,
+          "censored_boundary": 67,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 73
+        },
+        "evaluated": 84342,
+        "gross_mean_pct": -0.0053845530050448875,
+        "net_mean_pct_assumed": -0.20538455300504488,
+        "net_positive_fraction_assumed": 0.34132460695738776,
+        "exit_reasons": {
+          "target": 29936,
+          "stop": 51479,
+          "timeout": 2927
+        },
+        "ambiguous_same_minute_stop_first": 505
+      },
+      "stop_x1.5_tp_1R_max_15m": {
+        "statuses": {
+          "evaluated": 84655,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 183,
+          "censored_boundary": 34
+        },
+        "evaluated": 84655,
+        "gross_mean_pct": -0.00855090978110017,
+        "net_mean_pct_assumed": -0.2085509097811005,
+        "net_positive_fraction_assumed": 0.3458862441675034,
+        "exit_reasons": {
+          "timeout": 15504,
+          "target": 35382,
+          "stop": 33769
+        },
+        "ambiguous_same_minute_stop_first": 848
+      },
+      "stop_x1.5_tp_1R_max_30m": {
+        "statuses": {
+          "evaluated": 84689,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "censored_boundary": 62,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 121
+        },
+        "evaluated": 84689,
+        "gross_mean_pct": -0.009108948665734496,
+        "net_mean_pct_assumed": -0.20910894866573443,
+        "net_positive_fraction_assumed": 0.3791755717979903,
+        "exit_reasons": {
+          "target": 39964,
+          "stop": 38341,
+          "timeout": 6384
+        },
+        "ambiguous_same_minute_stop_first": 855
+      },
+      "stop_x1.5_tp_1R_max_60m": {
+        "statuses": {
+          "evaluated": 84742,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "censored_boundary": 67,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 63
+        },
+        "evaluated": 84742,
+        "gross_mean_pct": -0.008071815906518091,
+        "net_mean_pct_assumed": -0.20807181590651802,
+        "net_positive_fraction_assumed": 0.3937598829388025,
+        "exit_reasons": {
+          "target": 42146,
+          "stop": 40500,
+          "timeout": 2096
+        },
+        "ambiguous_same_minute_stop_first": 856
+      },
+      "stop_x1.5_tp_1.5R_max_15m": {
+        "statuses": {
+          "evaluated": 84634,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 199,
+          "censored_boundary": 39
+        },
+        "evaluated": 84634,
+        "gross_mean_pct": -0.00825586111055092,
+        "net_mean_pct_assumed": -0.20825586111055108,
+        "net_positive_fraction_assumed": 0.34287638537703524,
+        "exit_reasons": {
+          "timeout": 20854,
+          "target": 26752,
+          "stop": 37028
+        },
+        "ambiguous_same_minute_stop_first": 508
+      },
+      "stop_x1.5_tp_1.5R_max_30m": {
+        "statuses": {
+          "evaluated": 84664,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "censored_boundary": 70,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 138
+        },
+        "evaluated": 84664,
+        "gross_mean_pct": -0.008758802180900166,
+        "net_mean_pct_assumed": -0.20875880218090043,
+        "net_positive_fraction_assumed": 0.37665359538883114,
+        "exit_reasons": {
+          "target": 32018,
+          "stop": 43090,
+          "timeout": 9556
+        },
+        "ambiguous_same_minute_stop_first": 524
+      },
+      "stop_x1.5_tp_1.5R_max_60m": {
+        "statuses": {
+          "evaluated": 84713,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "censored_boundary": 75,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 84
+        },
+        "evaluated": 84713,
+        "gross_mean_pct": -0.006846737549152883,
+        "net_mean_pct_assumed": -0.2068467375491527,
+        "net_positive_fraction_assumed": 0.3929267054643325,
+        "exit_reasons": {
+          "target": 35027,
+          "stop": 46231,
+          "timeout": 3455
+        },
+        "ambiguous_same_minute_stop_first": 526
+      },
+      "stop_x1.5_tp_2R_max_15m": {
+        "statuses": {
+          "evaluated": 84622,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 209,
+          "censored_boundary": 41
+        },
+        "evaluated": 84622,
+        "gross_mean_pct": -0.006756652732109506,
+        "net_mean_pct_assumed": -0.20675665273210952,
+        "net_positive_fraction_assumed": 0.3107702488714519,
+        "exit_reasons": {
+          "timeout": 24583,
+          "stop": 38780,
+          "target": 21259
+        },
+        "ambiguous_same_minute_stop_first": 332
+      },
+      "stop_x1.5_tp_2R_max_30m": {
+        "statuses": {
+          "evaluated": 84646,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "censored_boundary": 74,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 152
+        },
+        "evaluated": 84646,
+        "gross_mean_pct": -0.007583815579088001,
+        "net_mean_pct_assumed": -0.20758381557908812,
+        "net_positive_fraction_assumed": 0.3378423079649363,
+        "exit_reasons": {
+          "target": 26683,
+          "stop": 45827,
+          "timeout": 12136
+        },
+        "ambiguous_same_minute_stop_first": 344
+      },
+      "stop_x1.5_tp_2R_max_60m": {
+        "statuses": {
+          "evaluated": 84699,
+          "target_passed_before_entry": 952,
+          "invalidated_before_entry": 88,
+          "invalid_stop": 488,
+          "censored_boundary": 81,
+          "no_trade_zero_volume_entry": 147,
+          "censored_no_liquidity_exit": 92
+        },
+        "evaluated": 84699,
+        "gross_mean_pct": -0.004887845681396161,
+        "net_mean_pct_assumed": -0.20488784568139617,
+        "net_positive_fraction_assumed": 0.35157439875323204,
+        "exit_reasons": {
+          "target": 30190,
+          "stop": 49702,
+          "timeout": 4807
+        },
+        "ambiguous_same_minute_stop_first": 346
+      }
+    },
+    "v3": {
+      "stop_x1_tp_1R_max_15m": {
+        "statuses": {
+          "evaluated": 50168,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 650,
+          "censored_boundary": 74,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50168,
+        "gross_mean_pct": -0.0030540045195582635,
+        "net_mean_pct_assumed": -0.20305400451955807,
+        "net_positive_fraction_assumed": 0.3210612342529102,
+        "exit_reasons": {
+          "timeout": 20597,
+          "stop": 14657,
+          "target": 14914
+        },
+        "ambiguous_same_minute_stop_first": 83
+      },
+      "stop_x1_tp_1R_max_30m": {
+        "statuses": {
+          "evaluated": 50373,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 406,
+          "censored_boundary": 113,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50373,
+        "gross_mean_pct": -0.004025274895164455,
+        "net_mean_pct_assumed": -0.20402527489516428,
+        "net_positive_fraction_assumed": 0.37923093720842516,
+        "exit_reasons": {
+          "timeout": 11284,
+          "stop": 19608,
+          "target": 19481
+        },
+        "ambiguous_same_minute_stop_first": 83
+      },
+      "stop_x1_tp_1R_max_60m": {
+        "statuses": {
+          "evaluated": 50550,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 229,
+          "censored_boundary": 113,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50550,
+        "gross_mean_pct": -0.004816952407984363,
+        "net_mean_pct_assumed": -0.2048169524079841,
+        "net_positive_fraction_assumed": 0.4144807121661721,
+        "exit_reasons": {
+          "timeout": 4975,
+          "stop": 23011,
+          "target": 22564
+        },
+        "ambiguous_same_minute_stop_first": 83
+      },
+      "stop_x1_tp_1.5R_max_15m": {
+        "statuses": {
+          "evaluated": 50077,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 729,
+          "censored_boundary": 86,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50077,
+        "gross_mean_pct": -0.0013548480032648843,
+        "net_mean_pct_assumed": -0.2013548480032648,
+        "net_positive_fraction_assumed": 0.292809074026,
+        "exit_reasons": {
+          "timeout": 25752,
+          "stop": 15539,
+          "target": 8786
+        },
+        "ambiguous_same_minute_stop_first": 44
+      },
+      "stop_x1_tp_1.5R_max_30m": {
+        "statuses": {
+          "evaluated": 50257,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 494,
+          "censored_boundary": 141,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50257,
+        "gross_mean_pct": -0.0027440393051752776,
+        "net_mean_pct_assumed": -0.20274403930517487,
+        "net_positive_fraction_assumed": 0.3386990866943908,
+        "exit_reasons": {
+          "timeout": 15834,
+          "stop": 21469,
+          "target": 12954
+        },
+        "ambiguous_same_minute_stop_first": 46
+      },
+      "stop_x1_tp_1.5R_max_60m": {
+        "statuses": {
+          "evaluated": 50440,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 307,
+          "censored_boundary": 145,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50440,
+        "gross_mean_pct": -0.002641159999709382,
+        "net_mean_pct_assumed": -0.20264115999970947,
+        "net_positive_fraction_assumed": 0.3668715305313243,
+        "exit_reasons": {
+          "timeout": 8020,
+          "stop": 25958,
+          "target": 16462
+        },
+        "ambiguous_same_minute_stop_first": 46
+      },
+      "stop_x1_tp_2R_max_15m": {
+        "statuses": {
+          "evaluated": 50027,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 774,
+          "censored_boundary": 91,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50027,
+        "gross_mean_pct": -0.0003727101575588659,
+        "net_mean_pct_assumed": -0.20037271015755864,
+        "net_positive_fraction_assumed": 0.2751714074399824,
+        "exit_reasons": {
+          "timeout": 28824,
+          "stop": 15933,
+          "target": 5270
+        },
+        "ambiguous_same_minute_stop_first": 29
+      },
+      "stop_x1_tp_2R_max_30m": {
+        "statuses": {
+          "evaluated": 50192,
+          "censored_boundary": 151,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 549,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50192,
+        "gross_mean_pct": -0.0024736710079925482,
+        "net_mean_pct_assumed": -0.20247367100799246,
+        "net_positive_fraction_assumed": 0.3083160663053873,
+        "exit_reasons": {
+          "timeout": 19161,
+          "stop": 22378,
+          "target": 8653
+        },
+        "ambiguous_same_minute_stop_first": 32
+      },
+      "stop_x1_tp_2R_max_60m": {
+        "statuses": {
+          "evaluated": 50359,
+          "censored_boundary": 160,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 125,
+          "censored_no_liquidity_exit": 373,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50359,
+        "gross_mean_pct": -0.001227344012489713,
+        "net_mean_pct_assumed": -0.20122734401248962,
+        "net_positive_fraction_assumed": 0.3262376139319685,
+        "exit_reasons": {
+          "timeout": 10613,
+          "stop": 27647,
+          "target": 12099
+        },
+        "ambiguous_same_minute_stop_first": 33
+      },
+      "stop_x1.25_tp_1R_max_15m": {
+        "statuses": {
+          "evaluated": 50090,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 747,
+          "censored_boundary": 91,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50090,
+        "gross_mean_pct": -0.002634090844907582,
+        "net_mean_pct_assumed": -0.20263409084490738,
+        "net_positive_fraction_assumed": 0.31760830505090837,
+        "exit_reasons": {
+          "timeout": 26728,
+          "stop": 11489,
+          "target": 11873
+        },
+        "ambiguous_same_minute_stop_first": 48
+      },
+      "stop_x1.25_tp_1R_max_30m": {
+        "statuses": {
+          "evaluated": 50261,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 517,
+          "censored_boundary": 150,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50261,
+        "gross_mean_pct": -0.00437848849474029,
+        "net_mean_pct_assumed": -0.20437848849474022,
+        "net_positive_fraction_assumed": 0.3801555878315195,
+        "exit_reasons": {
+          "timeout": 16569,
+          "stop": 16869,
+          "target": 16823
+        },
+        "ambiguous_same_minute_stop_first": 50
+      },
+      "stop_x1.25_tp_1R_max_60m": {
+        "statuses": {
+          "evaluated": 50442,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 334,
+          "censored_boundary": 152,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50442,
+        "gross_mean_pct": -0.004453962904521741,
+        "net_mean_pct_assumed": -0.20445396290452175,
+        "net_positive_fraction_assumed": 0.4241505094960549,
+        "exit_reasons": {
+          "timeout": 8512,
+          "stop": 21156,
+          "target": 20774
+        },
+        "ambiguous_same_minute_stop_first": 50
+      },
+      "stop_x1.25_tp_1.5R_max_15m": {
+        "statuses": {
+          "evaluated": 49996,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 832,
+          "censored_boundary": 100,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 49996,
+        "gross_mean_pct": -0.002444421257631191,
+        "net_mean_pct_assumed": -0.20244442125763093,
+        "net_positive_fraction_assumed": 0.28898311864949194,
+        "exit_reasons": {
+          "timeout": 31643,
+          "stop": 12026,
+          "target": 6327
+        },
+        "ambiguous_same_minute_stop_first": 25
+      },
+      "stop_x1.25_tp_1.5R_max_30m": {
+        "statuses": {
+          "evaluated": 50155,
+          "censored_boundary": 170,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 603,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50155,
+        "gross_mean_pct": -0.0044207247387374245,
+        "net_mean_pct_assumed": -0.20442072473873765,
+        "net_positive_fraction_assumed": 0.33540025919649086,
+        "exit_reasons": {
+          "timeout": 21644,
+          "stop": 18180,
+          "target": 10331
+        },
+        "ambiguous_same_minute_stop_first": 26
+      },
+      "stop_x1.25_tp_1.5R_max_60m": {
+        "statuses": {
+          "evaluated": 50320,
+          "censored_boundary": 178,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 430,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50320,
+        "gross_mean_pct": -0.0030639059399295973,
+        "net_mean_pct_assumed": -0.20306390593992957,
+        "net_positive_fraction_assumed": 0.3672496025437202,
+        "exit_reasons": {
+          "timeout": 12482,
+          "stop": 23491,
+          "target": 14347
+        },
+        "ambiguous_same_minute_stop_first": 27
+      },
+      "stop_x1.25_tp_2R_max_15m": {
+        "statuses": {
+          "evaluated": 49969,
+          "censored_boundary": 103,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 856,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 49969,
+        "gross_mean_pct": -0.0017576729319468212,
+        "net_mean_pct_assumed": -0.20175767293194674,
+        "net_positive_fraction_assumed": 0.27807240489103247,
+        "exit_reasons": {
+          "timeout": 34040,
+          "stop": 12206,
+          "target": 3723
+        },
+        "ambiguous_same_minute_stop_first": 22
+      },
+      "stop_x1.25_tp_2R_max_30m": {
+        "statuses": {
+          "evaluated": 50098,
+          "censored_boundary": 177,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 653,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50098,
+        "gross_mean_pct": -0.003982306928263419,
+        "net_mean_pct_assumed": -0.2039823069282636,
+        "net_positive_fraction_assumed": 0.3144237294901992,
+        "exit_reasons": {
+          "timeout": 24636,
+          "stop": 18700,
+          "target": 6762
+        },
+        "ambiguous_same_minute_stop_first": 24
+      },
+      "stop_x1.25_tp_2R_max_60m": {
+        "statuses": {
+          "evaluated": 50240,
+          "censored_boundary": 198,
+          "no_trade_zero_volume_entry": 1335,
+          "invalid_stop": 89,
+          "censored_no_liquidity_exit": 490,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50240,
+        "gross_mean_pct": -0.003577517412753662,
+        "net_mean_pct_assumed": -0.20357751741275373,
+        "net_positive_fraction_assumed": 0.3339171974522293,
+        "exit_reasons": {
+          "timeout": 15289,
+          "stop": 24634,
+          "target": 10317
+        },
+        "ambiguous_same_minute_stop_first": 27
+      },
+      "stop_x1.5_tp_1R_max_15m": {
+        "statuses": {
+          "evaluated": 50012,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 839,
+          "invalid_stop": 68,
+          "censored_boundary": 98,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50012,
+        "gross_mean_pct": -0.001658944711352203,
+        "net_mean_pct_assumed": -0.2016589447113522,
+        "net_positive_fraction_assumed": 0.30954570902983286,
+        "exit_reasons": {
+          "timeout": 31820,
+          "stop": 8823,
+          "target": 9369
+        },
+        "ambiguous_same_minute_stop_first": 37
+      },
+      "stop_x1.5_tp_1R_max_30m": {
+        "statuses": {
+          "evaluated": 50159,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 618,
+          "invalid_stop": 68,
+          "censored_boundary": 172,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50159,
+        "gross_mean_pct": -0.002895368086486177,
+        "net_mean_pct_assumed": -0.2028953680864863,
+        "net_positive_fraction_assumed": 0.37373153372276163,
+        "exit_reasons": {
+          "timeout": 21645,
+          "stop": 14164,
+          "target": 14350
+        },
+        "ambiguous_same_minute_stop_first": 41
+      },
+      "stop_x1.5_tp_1R_max_60m": {
+        "statuses": {
+          "evaluated": 50342,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 428,
+          "invalid_stop": 68,
+          "censored_boundary": 179,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50342,
+        "gross_mean_pct": -0.002484237528600562,
+        "net_mean_pct_assumed": -0.20248423752860067,
+        "net_positive_fraction_assumed": 0.42320527591275675,
+        "exit_reasons": {
+          "timeout": 12497,
+          "stop": 18962,
+          "target": 18883
+        },
+        "ambiguous_same_minute_stop_first": 44
+      },
+      "stop_x1.5_tp_1.5R_max_15m": {
+        "statuses": {
+          "evaluated": 49948,
+          "censored_boundary": 105,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 896,
+          "invalid_stop": 68,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 49948,
+        "gross_mean_pct": -0.0008569457524744588,
+        "net_mean_pct_assumed": -0.2008569457524746,
+        "net_positive_fraction_assumed": 0.2878393529270441,
+        "exit_reasons": {
+          "timeout": 36068,
+          "stop": 9139,
+          "target": 4741
+        },
+        "ambiguous_same_minute_stop_first": 22
+      },
+      "stop_x1.5_tp_1.5R_max_30m": {
+        "statuses": {
+          "evaluated": 50069,
+          "censored_boundary": 187,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 693,
+          "invalid_stop": 68,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50069,
+        "gross_mean_pct": -0.002795712077695438,
+        "net_mean_pct_assumed": -0.20279571207769548,
+        "net_positive_fraction_assumed": 0.33519742754998105,
+        "exit_reasons": {
+          "timeout": 26632,
+          "stop": 15057,
+          "target": 8380
+        },
+        "ambiguous_same_minute_stop_first": 25
+      },
+      "stop_x1.5_tp_1.5R_max_60m": {
+        "statuses": {
+          "evaluated": 50208,
+          "censored_boundary": 206,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 535,
+          "invalid_stop": 68,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50208,
+        "gross_mean_pct": -0.002134588431899318,
+        "net_mean_pct_assumed": -0.2021345884318993,
+        "net_positive_fraction_assumed": 0.36868626513702996,
+        "exit_reasons": {
+          "timeout": 16919,
+          "stop": 20788,
+          "target": 12501
+        },
+        "ambiguous_same_minute_stop_first": 28
+      },
+      "stop_x1.5_tp_2R_max_15m": {
+        "statuses": {
+          "evaluated": 49922,
+          "censored_boundary": 109,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 918,
+          "invalid_stop": 68,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 49922,
+        "gross_mean_pct": -0.001681384618617974,
+        "net_mean_pct_assumed": -0.2016813846186179,
+        "net_positive_fraction_assumed": 0.28095829494010655,
+        "exit_reasons": {
+          "timeout": 37874,
+          "stop": 9257,
+          "target": 2791
+        },
+        "ambiguous_same_minute_stop_first": 20
+      },
+      "stop_x1.5_tp_2R_max_30m": {
+        "statuses": {
+          "evaluated": 50016,
+          "censored_boundary": 194,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 739,
+          "invalid_stop": 68,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50016,
+        "gross_mean_pct": -0.0040177781759202355,
+        "net_mean_pct_assumed": -0.20401777817592023,
+        "net_positive_fraction_assumed": 0.32023752399232247,
+        "exit_reasons": {
+          "timeout": 29156,
+          "stop": 15380,
+          "target": 5480
+        },
+        "ambiguous_same_minute_stop_first": 20
+      },
+      "stop_x1.5_tp_2R_max_60m": {
+        "statuses": {
+          "evaluated": 50138,
+          "censored_boundary": 227,
+          "no_trade_zero_volume_entry": 1335,
+          "censored_no_liquidity_exit": 584,
+          "invalid_stop": 68,
+          "invalidated_before_entry": 26
+        },
+        "evaluated": 50138,
+        "gross_mean_pct": -0.00446362929966076,
+        "net_mean_pct_assumed": -0.2044636292996607,
+        "net_positive_fraction_assumed": 0.34313295304958313,
+        "exit_reasons": {
+          "timeout": 19514,
+          "stop": 21546,
+          "target": 9078
+        },
+        "ambiguous_same_minute_stop_first": 21
+      }
+    }
+  }
+}

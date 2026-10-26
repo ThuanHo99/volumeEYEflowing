@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Volume Hunter</title>
+  <meta name="description"
+    content="Discover institutional volume anomalies and AI-driven market indicators across 500+ altcoins in real time with high-fidelity analytics and instant Telegram alerts.">
+  <link rel="icon" type="image/png" href="/static/images/logo_icon.png">
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Phosphor Icons CSS -->
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.2/src/regular/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.2/src/fill/style.css" />
+
+  <!-- Custom landing page style -->
+  <link rel="stylesheet" href="/static/css/landing_v2.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="landing-header">
+    <div class="header-container">
+      <a href="/" class="brand-logo" id="logo-link">
+        <img src="/static/images/logo_icon_trans.png" alt="VolHunter Logo" class="brand-logo-img">
+        <span>VolHunter</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features" class="nav-link" data-i18n="nav-features">Features</a>
+        <a href="#workflow" class="nav-link" data-i18n="nav-workflow">Workflow</a>
+        <a href="#tech" class="nav-link" data-i18n="nav-tech">Technology</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-selector">
+          <button class="lang-btn" data-lang="vi">VI</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a href="/dashboard" class="btn-primary" id="nav-launch-btn" data-i18n="btn-launch-dashboard">Launch
+          Dashboard</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="eyebrow-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text" data-i18n="hero-eyebrow">PRO REAL-TIME ENGINE</span>
+          </div>
+          <h1 data-i18n="hero-title">Decentralized Intelligence. Immediate Action.</h1>
+          <p class="hero-subtitle" data-i18n="hero-subtitle">
+            Track institutional volume anomalies and AI-driven market indicators across 500+ altcoins in real time with
+            high-fidelity analytics.
+          </p>
+          <div class="hero-actions">
+            <a href="/dashboard" class="btn-primary btn-large" id="hero-launch-btn">
+              <span data-i18n="btn-launch-dashboard">Launch Dashboard</span>
+              <i class="ph ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Live Market Widget -->
+        <div class="hero-widget">
+          <div class="widget-card" id="live-ticker-widget">
+            <div class="widget-header">
+              <div class="widget-title">
+                <span class="pulse-icon green"></span>
+                <span data-i18n="widget-live-feed">Live Feed: BTC/USDT</span>
+              </div>
+              <div class="widget-source">Binance WS</div>
+            </div>
+
+            <div class="widget-price-row">
+              <div class="price-container">
+                <span id="live-price-val" data-i18n="widget-connecting">Connecting...</span>
+                <span id="live-price-pct">--%</span>
+              </div>
+              <div class="price-label" data-i18n="widget-price-label">Live Price (USD)</div>
+            </div>
+
+            <div class="widget-chart-wrapper">
+              <canvas id="live-sparkline"></canvas>
+            </div>
+
+            <div class="widget-logs-title" data-i18n="widget-logs-title">REAL-TIME ORDER STREAM</div>
+            <div class="widget-terminal" id="live-trade-logs">
+              <div class="terminal-line placeholder" data-i18n="widget-init-conn">Initializing secure connection to
+                stream...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES BENTO GRID -->
+    <section id="features" class="section-container">
+      <div class="section-header">
+        <h2 data-i18n="features-header">Built for High-Frequency Analysis</h2>
+        <p data-i18n="features-subheader">No generic dashboards. Experience structured analytics engineered for market
+          efficiency.</p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Card 1: Altcoin Volume Sniper (Double size) -->
+        <div class="bento-card col-span-2 card-glow">
+          <div class="bento-card-info">
+            <div class="bento-icon"><i class="ph ph-target"></i></div>
+            <h3 data-i18n="bento-sniper-title">Altcoin Volume Sniper</h3>
+            <p data-i18n="bento-sniper-desc">Scan 500+ spot and futures symbols continuously for institutional volume
+              spikes. Classify anomalies in real time across custom Trend, Reversal, and Risky alert zones.</p>
+          </div>
+          <div class="bento-visual sniper-visual">
+            <div class="sniper-list">
+              <div class="sniper-row">
+                <span class="sniper-sym font-mono">SOL/USDT</span>
+                <div class="sniper-bar-wrapper">
+                  <div class="sniper-bar trend" style="width: 85%"></div>
+                </div>
+                <span class="sniper-val font-mono trend-text">9.2x</span>
+                <span class="sniper-zone trend" data-i18n="zone-trend">TREND</span>
+              </div>
+              <div class="sniper-row">
+                <span class="sniper-sym font-mono">DOGE/USDT</span>
+                <div class="sniper-bar-wrapper">
+                  <div class="sniper-bar reversal" style="width: 65%"></div>
+                </div>
+                <span class="sniper-val font-mono reversal-text">5.4x</span>
+                <span class="sniper-zone reversal" data-i18n="zone-reversal">REVERSAL</span>
+              </div>
+              <div class="sniper-row">
+                <span class="sniper-sym font-mono">MEME/USDT</span>
+                <div class="sniper-bar-wrapper">
+                  <div class="sniper-bar risky" style="width: 95%"></div>
+                </div>
+                <span class="sniper-val font-mono risky-text">14.1x</span>
+                <span class="sniper-zone risky" data-i18n="zone-risky">RISKY</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Multi-Timeframe Confluence (Standard) -->
+        <div class="bento-card card-glow">
+          <div class="bento-card-info">
+            <div class="bento-icon"><i class="ph ph-intersect"></i></div>
+            <h3 data-i18n="bento-confluence-title">Confluence Engine</h3>
+            <p data-i18n="bento-confluence-desc">Cross-references RSI extremums, EMA200 touches, and divergence trends
+              across 15m, 1h, and 4h intervals to filter high-probability setups.</p>
+          </div>
+          <div class="bento-visual confluence-visual">
+            <div class="confluence-lines">
+              <div class="c-line"><span class="c-label">15m</span><span class="c-indicator rsi font-mono"
+                  data-i18n="ind-rsi-oversold">RSI Oversold</span></div>
+              <div class="c-line"><span class="c-label">1h</span><span class="c-indicator ema font-mono"
+                  data-i18n="ind-ema-support">EMA200 Support</span></div>
+              <div class="c-line active"><span class="c-label">Confluence</span><span
+                  class="c-indicator conf font-mono"><i class="ph-fill ph-check-circle"></i> <span
+                    data-i18n="ind-long-trigger">LONG Trigger</span></span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: AI Sentiment Core (Standard) -->
+        <div class="bento-card card-glow">
+          <div class="bento-card-info">
+            <div class="bento-icon"><i class="ph ph-cpu"></i></div>
+            <h3 data-i18n="bento-sentiment-title">AI Sentiment Index</h3>
+            <p data-i18n="bento-sentiment-desc">Monitors news feeds, developer activity, and order flow metrics to
+              deliver a real-time sentiment coefficient index.</p>
+          </div>
+          <div class="bento-visual sentiment-visual">
+            <div class="sentiment-dial">
+              <svg viewBox="0 0 100 100" class="dial-svg">
+                <circle cx="50" cy="50" r="40" class="dial-bg"></circle>
+                <circle cx="50" cy="50" r="40" class="dial-progress"
+                  style="stroke-dasharray: 251; stroke-dashoffset: 65;"></circle>
+              </svg>
+              <div class="dial-text font-mono">74%</div>
+              <div class="dial-label" data-i18n="ind-bullish">BULLISH</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Telegram Alerts (Double size) -->
+        <div class="bento-card col-span-2 card-glow">
+          <div class="bento-card-info">
+            <div class="bento-icon"><i class="ph ph-paper-plane-tilt"></i></div>
+            <h3 data-i18n="bento-telegram-title">Under 1-Sec Latency</h3>
+            <p data-i18n="bento-telegram-desc">Instant notification pipeline directly to your Telegram channels.
+              Structured signal payloads include precise price entry triggers, indicator levels, and static chart links.
+            </p>
+          </div>
+          <div class="bento-visual telegram-visual">
+            <div class="tg-message-card">
+              <div class="tg-header">
+                <i class="ph-fill ph-paper-plane-tilt"></i>
+                <span class="tg-bot-name">VolHunter Alerts</span>
+                <span class="tg-time">10:45 AM</span>
+              </div>
+              <div class="tg-body font-mono">
+                <div class="tg-alert-line"><span class="tg-tag green" data-i18n="tg-sig-long">🔔 SIGNAL LONG</span>
+                </div>
+                <div class="tg-alert-line"><b>Symbol:</b> BTC/USDT</div>
+                <div class="tg-alert-line"><b>Type:</b> EMA_SUPPORT_TOUCH</div>
+                <div class="tg-alert-line"><b>Timeframe:</b> 15m</div>
+                <div class="tg-alert-line"><b>Close:</b> $67,410.50 (RSI: 32.4)</div>
+                <div class="tg-alert-line"><b data-i18n="tg-detail-lbl">Detail:</b> <span
+                    data-i18n="tg-detail-val">Price touched 15m EMA200 support line</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVICE SHOWCASE -->
+    <section id="showcase" class="section-container border-top text-center">
+      <div class="section-header">
+        <h2 data-i18n="showcase-header">Cross-Platform Terminal</h2>
+        <p data-i18n="showcase-subheader">Monitor volume anomalies on any device. Fully responsive desktop and mobile
+          dashboards.</p>
+      </div>
+      <div class="showcase-wrapper">
+        <img src="/static/images/logo_mockup.png" alt="VolHunter Cross-Platform Terminal" class="showcase-img">
+      </div>
+    </section>
+
+    <!-- SYSTEM WORKFLOW -->
+    <section id="workflow" class="section-container border-top">
+      <div class="section-header">
+        <h2 data-i18n="workflow-header">Behind the Scenes</h2>
+        <p data-i18n="workflow-subheader">From ingestion to delivery, the workflow is optimized for minimal latency.</p>
+      </div>
+
+      <div class="workflow-track">
+        <div class="workflow-step">
+          <div class="step-num font-mono">01</div>
+          <h4 data-i18n="work-step1-title">Real-time Ingestion</h4>
+          <p data-i18n="work-step1-desc">Continuous WebSocket feeds parse ticker and candle data directly from primary
+            exchange gateways.</p>
+        </div>
+        <div class="workflow-step">
+          <div class="step-num font-mono">02</div>
+          <h4 data-i18n="work-step2-title">State Processing</h4>
+          <p data-i18n="work-step2-desc">The Python processing engine manages isolated state buffers and recalculates
+            indicators on every tick.</p>
+        </div>
+        <div class="workflow-step">
+          <div class="step-num font-mono">03</div>
+          <h4 data-i18n="work-step3-title">Anomaly Detection</h4>
+          <p data-i18n="work-step3-desc">Mathematical scoring models filter noise and track volatility surges inside
+            Altcoin Volume Sniper.</p>
+        </div>
+        <div class="workflow-step">
+          <div class="step-num font-mono">04</div>
+          <h4 data-i18n="work-step4-title">Actionable Dispatch</h4>
+          <p data-i18n="work-step4-desc">Parallel dispatch pipes broadcast updates to connected Web UI clients and
+            Telegram simultaneously.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA & TECHNOLOGY SECTION -->
+    <section id="tech" class="section-container border-top text-center">
+      <div class="cta-box">
+        <h3 data-i18n="cta-title">Ready to step into the flow?</h3>
+        <p data-i18n="cta-desc">Access the core real-time monitoring engine and configure your automated notification
+          rules.</p>
+        <a href="/dashboard" class="btn-primary btn-large btn-glow" id="footer-launch-btn">
+          <span data-i18n="btn-enter-app">Enter Application</span>
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="tech-logos-wrapper">
+        <div class="tech-logos-title" data-i18n="tech-logos-title">ENGINE STACK &amp; INTEGRATIONS</div>
+        <div class="tech-logos">
+          <div class="logo-item" title="Python">
+            <img src="https://cdn.simpleicons.org/python/a3aed0" alt="Python Logo">
+            <span>Python 3.11</span>
+          </div>
+          <div class="logo-item" title="Telegram">
+            <img src="https://cdn.simpleicons.org/telegram/a3aed0" alt="Telegram Logo">
+            <span>Telegram API</span>
+          </div>
+          <div class="logo-item" title="Prometheus">
+            <img src="https://cdn.simpleicons.org/prometheus/a3aed0" alt="Prometheus Logo">
+            <span>Prometheus</span>
+          </div>
+          <div class="logo-item" title="Docker">
+            <img src="https://cdn.simpleicons.org/docker/a3aed0" alt="Docker Logo">
+            <span>Docker</span>
+          </div>
+          <div class="logo-item" title="Binance">
+            <img src="https://cdn.simpleicons.org/binance/a3aed0" alt="Binance Logo">
+            <span>Binance WS</span>
+          </div>
+          <div class="logo-item" title="TradingView">
+            <img src="https://cdn.simpleicons.org/tradingview/a3aed0" alt="TradingView Logo">
+            <span>Lightweight Charts</span>
+          </div>
+          <div class="logo-item" title="SQLite">
+            <img src="https://cdn.simpleicons.org/sqlite/a3aed0" alt="SQLite Logo">
+            <span>SQLite</span>
+          </div>
+          <div class="logo-item" title="JavaScript">
+            <img src="https://cdn.simpleicons.org/javascript/a3aed0" alt="JavaScript Logo">
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="landing-footer">
+    <div class="footer-container">
+      <div class="footer-brand-section">
+        <img src="/static/images/logo_full_trans.png" alt="VolHunter Full Logo" class="footer-logo-img">
+      </div>
+      <span class="footer-copy" data-i18n="footer-copy">&copy; 2026 VolHunter. All rights reserved.</span>
+      <span class="footer-status font-mono">
+        <span class="pulse-icon green"></span>
+        <span data-i18n="footer-status">Engine Active (v2.4.0)</span>
+      </span>
+    </div>
+  </footer>
+
+  <!-- Live price and sparkline script -->
+  <script src="/static/js/landing.js?v=2"></script>
+</body>
+
+</html>

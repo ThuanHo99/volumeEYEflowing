@@ -1,0 +1,26 @@
+# === DATA INGESTION ===
+ccxt[async]~=4.5.0
+# Luu y: ccxt.pro duoc tich hop trong goi ccxt[async], khong cai rieng
+
+# === INDICATORS ===
+talipp~=2.7.0
+
+# === WEB UI ===
+aiohttp~=3.13.0
+
+# === NOTIFICATIONS ===
+python-telegram-bot~=22.7
+
+# === UTILITIES ===
+python-dotenv~=1.2.0
+
+# === OPERATIONS ===
+structlog~=25.5.0
+prometheus-client[aiohttp]~=0.25.0
+
+# === VOLUMESNIPER INTEGRATION ===
+websockets>=12.0
+numpy>=1.26.0
+mplfinance>=0.12.9b7
+pandas>=2.0.0
+

@@ -1,0 +1,4778 @@
+{
+  "jobs": 795,
+  "statuses": {
+    "cached": 795
+  },
+  "results": [
+    {
+      "symbol": "0GUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000000MOGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000BONKUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000CATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000CHEEMSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000FLOKIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000LUNCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000PEPEUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000SATSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000SHIBUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1INCHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "1MBABYDOGEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "2ZUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "4USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AAOIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AAPLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AAVEUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ACEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ACHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ACNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ACTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ACUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ADAUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ADAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ADBEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AEROUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AEVOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AGPUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AGTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AINUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AIOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AIXBTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AKAMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AKEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AKTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ALABUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ALCHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ALICEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ALLOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ALLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ALPINEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ALTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AMATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AMCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AMDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AMZNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ANETUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ANIMEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ANKRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ANTHROPICUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "APEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "API3USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "APLDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "APPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "APRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "APTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARBUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARKMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARPAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ARXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ASMLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ASRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ASTERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ASTRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ASTSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ATHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AUCTIONUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AVAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AVAXUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AVGOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AVNTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AWEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AXLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AXSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AXTIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "AZTECUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "B2USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BABAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BABYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BACUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BANANAS31USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BANANAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BANDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BANKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BANUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BARDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BASEDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BASUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BBXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BCHUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BCHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BEATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BELUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BERAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BICOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BILLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BIOUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BIOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BITOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BLURUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BMNRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BMTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BNBUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BNBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BNCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BNTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BOMEUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BOMEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BOTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BRETTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BREVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BRKBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BROCCOLI714USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BSBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BSPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BSVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTCDOMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTCU",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTCUSD1",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTCUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTCUSDT_261225",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTCUSDT_270326",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BTWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BWETUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BYDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "BZUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "C98USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CAKEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CAPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CARVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CATIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CBRSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CEGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CELOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CELRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CETUSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CFGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CFXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CGPTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CHILLGUYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CHRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CHZUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CIENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CKBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CLANKERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CLOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COAIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COHRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COINUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COLLECTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COMPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COOKIEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COPPERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COSTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COTIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "COWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CRCLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CRDOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CRMLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CRMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CROSSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CRVUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CRVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CRWDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CRWVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CSCOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CSOPSAMSUNG2LUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CSOPSKHYNIX2LUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CTKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CTRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CTSIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CVCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CVNAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CVXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CXMTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CYBERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CYPHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "CYSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DASHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DATAIPUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DATAIPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DDOGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DEEPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DELLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DISUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DJTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DKNGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DODOXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DOGEUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DOGSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DOLOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DOODUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DOSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DOTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DRAMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DRIFTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DUSKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DYDXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "DYMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EBAYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EDENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EDUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EGLDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EIGENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ELSAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ENAUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ENAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ENJUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ENSOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ENSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ERAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ESPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHBTC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHFIUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHFIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHU",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHUSD1",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHUSDT_261225",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHUSDT_270326",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ETHWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EULUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EWJUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EWTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EWYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "EWZUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FARTCOINUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FETUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FFUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FHEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FIDAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FIGHTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FILUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FILUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FLEXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FLNCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FLOCKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FLOWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FLUIDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FLUXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FOGOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FOLKSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FORMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FRAXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "FWDIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GALAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GASUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GDXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GENIUSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GEVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GIGADEVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GIGGLEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GLMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GLWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GMEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GMTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GMXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GOATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GOOGLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GPROUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GPSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GRAMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GRIFFAINUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GRTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GRVTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GTCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GTLBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GUAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GUNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HAEDALUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HANAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HANMIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HBARUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HBARUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HEIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HIMSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HIVEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HK0625USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HK0700USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HK0992USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HK1810USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HOLOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HOODUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HOTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HPEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HUTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HYPERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "HYUNDAIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IBKRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IBMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ICPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ILVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IMXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "INITUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "INJUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "INTCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "INTWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "INUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "INXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IONQUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IOTAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IOTXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IRENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IRYSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "IWMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "JASMYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "JCTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "JOEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "JPMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "JSTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "JTOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "JUPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KAITOUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KASUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KAVAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KERNELUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KGENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KITEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KLACUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KMNOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KNCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KODEX200USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KOMAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KORUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KSMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KSTRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "KUAISHOUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LABUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LAYERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LDOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LGELECTRONICSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LIGHTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LINEAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LINKUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LINKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LITEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LITUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LLYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LPTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LQTYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LRCXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LSKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LTCUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LTCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LUNA2USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LYNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "LYTEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MAGICUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MANAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MANTRAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MARAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MASKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MAVIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MAVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MCDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MDBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MDTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MEGAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MEITUANUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MELANIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MEMEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MERLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "METAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "METISUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "METUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MEWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MINAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MINIMAXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MIRAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MMTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MOCAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MONUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MOODENGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MOONSHOTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MORPHOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MOVEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MRKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MRNAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MRVLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MSFTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MSTRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MSTUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MTLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MUUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "MYXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NAORISUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NATGASUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NAVERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NBISUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NEARUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NEARUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NEIROUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NEOUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NEOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NETUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NEWTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NFLXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NIGHTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NILUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NKEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NMRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NOKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NOMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NOTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NOWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NVDAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NVDLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NVOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "NXPCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OGNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OKLOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ONDSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ONEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ONGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ONTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ONUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OPENAIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OPENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OPGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OPNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ORCAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ORCLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ORDIUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OURAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "OUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PANWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PARTIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PATHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PAYPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PDDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PENDLEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PENGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PENGUUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PEOPLEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PHAROSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PHAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PIXELUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PLAYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PLTRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PLUMEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PNUTUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PNUTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "POLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "POLYXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PONSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "POPCATUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "POPMARTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "POWERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "POWRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PREDICTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PRLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PROMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PROVEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PUMPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PUNDIXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PYPLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "PYTHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "QCOMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "QNTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "QNTXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "QQQUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "QTUMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "QUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RAMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RAREUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RAYSOLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RDDTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RDWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RECALLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "REDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RENDERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RESOLVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "REUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "REZUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RIFUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RIVERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RIVNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RKLBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RLCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ROBOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RONINUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ROSEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RPLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RSRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RUMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RUNEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "RVNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SAFEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SAHARAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SAMSUNGEMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SAMSUNGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SANDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SANTOSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SAPIENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SCRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SECZUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SEIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SENTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SFPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SHAZUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SHOPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SIGNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SKDDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SKHYNIXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SKHYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SKLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SKRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SKUUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SKYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SLPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SLXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SMCIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SMHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SNDKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SNOWUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SNPSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SNXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOFIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOLUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOLVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOMIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SONICUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SONYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOONUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SOXSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SPACEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SPCXUSD1",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SPCXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SPELLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SPKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SPORTFUNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SPXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SPYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SQDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SQQQUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SSVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STABLEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STARUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STBLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STEEMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STRCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STRKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "STXXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SUIUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SUIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SUNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SUPERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SWARMSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SXTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SYNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "SYRUPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TACUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TAGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TAOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TBTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TEAMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TEMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TENCENTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "THETAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "THEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TIAUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TLMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TMFUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TNSRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TOSHIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TOWNSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TQQQUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TRADOORUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TRBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TREEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TRUMPUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TRUSTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TRXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TSLAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TSLLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TSMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TSTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TTWOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TURBOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TURTLEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TUTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TWSTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TWTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TXNUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "TZAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UAIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UBERUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UMAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UNHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UNITREEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UNIUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UNIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "URNMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "USARUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "USDBRLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "USDCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "USDEXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "USTCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "USUALUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "USUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "UVXYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VANAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VELODROMEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VETUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VKTXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VRTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VSTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VTHOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "VVVUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WALUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WAXPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WCTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WDCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WETUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WIFUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WIFUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WLDUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WLDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WLFIUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WMTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WOOUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "WUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XAGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XAIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XANUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XAUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XBIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XLEUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XLMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XMRUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XNYUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XOMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XPDUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XPINUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XPLUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XPTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XRPUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XRPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XTZUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XVGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "XVSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "YBUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "YFIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "YGGUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZAMAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZBTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZCSHUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZECUSDC",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZECUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZENUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZEREBROUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZESTUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZETAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZHIPUUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZILUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZKCUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZKPUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZKUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZMUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZORAUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZROUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZRXUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "ZSUSDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "哈基米USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "币安人生USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "我踏马来了USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "牛来USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    },
+    {
+      "symbol": "龙虾USDT",
+      "day": "2026-10-25",
+      "status": "cached",
+      "rows": null
+    }
+  ]
+}

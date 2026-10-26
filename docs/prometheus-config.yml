@@ -1,0 +1,61 @@
+# Prometheus Scrape Configuration
+
+> Optional — for production monitoring only. Not required for local development.
+
+## Quick Start
+
+```yaml
+# prometheus.yml
+scrape_configs:
+  - job_name: 'btc-signal-tracker'
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['127.0.0.1:8080']
+    metrics_path: '/metrics'
+```
+
+## Available Metrics
+
+| Metric | Type | Labels | Description |
+|--------|------|--------|-------------|
+| `btc_signal_queue_size` | Gauge | `queue` (candles/signals/ui) | Current queue depths |
+| `btc_signal_ws_connections` | Gauge | — | Active WebSocket clients |
+| `btc_signal_candles_processed_total` | Counter | `timeframe` | Total closed candles processed |
+| `btc_signal_signals_total` | Counter | `signal_type`, `timeframe` | Signals generated |
+
+## Alert Rules (Optional)
+
+```yaml
+# alerts.yml
+groups:
+  - name: btc-signal-tracker
+    rules:
+      - alert: QueueBackpressure
+        expr: btc_signal_queue_size > 1000
+        for: 30s
+        labels:
+          severity: warning
+        annotations:
+          summary: "Queue {{ $labels.queue }} is backing up ({{ $value }})"
+
+      - alert: NoWebSocketClients
+        expr: btc_signal_ws_connections == 0
+        for: 120s
+        labels:
+          severity: info
+        annotations:
+          summary: "No WebSocket clients connected"
+```
+
+## Running with Prometheus
+
+```bash
+# Start Prometheus with config
+docker run -d -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+
+# Or with alert rules
+docker run -d -p 9090:9090 \
+  -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml \
+  -v $(pwd)/alerts.yml:/etc/prometheus/alerts.yml \
+  prom/prometheus
+```

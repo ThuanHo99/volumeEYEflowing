@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi Signal Tracker</title>
+  <link rel="icon" type="image/png" href="/static/images/logo_icon.png">
+  <!-- Preconnect Google Fonts for faster rendering -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Phosphor Icons CSS -->
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.2/src/regular/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.2/src/fill/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.2/src/bold/style.css" />
+  <!-- App Stylesheet -->
+  <link rel="stylesheet" href="/static/css/dashboard.css">
+</head>
+
+<body>
+
+  <!-- LOADING OVERLAY -->
+  <div id="loading-overlay">
+    <div id="loading-spinner"></div>
+    <div id="loading-text" data-i18n="loading-text">Synchronizing market data...</div>
+  </div>
+
+  <!-- TOP NAVIGATION BAR -->
+  <nav id="top-nav">
+    <span class="nav-brand"><img src="/static/images/logo_icon_trans.png" alt="VolHunter Logo"
+        class="brand-logo-img"><span>VolHunter</span></span>
+    <div class="nav-menu">
+      <button class="nav-item active" data-i18n="nav-market">Market</button>
+      <button class="nav-item" data-i18n="nav-alerts">Alerts</button>
+      <button class="nav-item" data-i18n="nav-scanner">Scanner</button>
+    </div>
+    <div class="nav-actions">
+      <button id="btn-lang-toggle" class="nav-icon" title="Switch Language (VI/EN)" aria-label="Switch Language">
+        <i class="ph ph-globe"></i>
+      </button>
+      <button id="btn-notifications" class="nav-icon" title="Notifications" aria-label="Notifications">
+        <i class="ph ph-bell"></i>
+      </button>
+      <button id="btn-settings" class="nav-icon" title="Settings" aria-label="Settings">
+        <i class="ph ph-gear"></i>
+      </button>
+      <span class="nav-avatar">U</span>
+    </div>
+  </nav>
+
+  <!-- MAIN AREA -->
+  <div id="main-area">
+
+    <!-- LEFT ICON SIDEBAR -->
+    <div id="icon-sidebar">
+      <button class="is-btn active" title="Charts" data-view="charts" aria-label="Charts">
+        <i class="ph ph-chart-line"></i>
+      </button>
+      <button class="is-btn" title="Alerts" data-view="alerts" aria-label="Alerts">
+        <i class="ph ph-bell"></i>
+      </button>
+      <button class="is-btn" title="Volume Scanner" data-view="scanner" aria-label="Volume Scanner">
+        <i class="ph ph-broadcast"></i>
+      </button>
+
+      <div class="is-spacer"></div>
+      <button class="is-btn is-btn-logout" title="Logout" aria-label="Logout">
+        <i class="ph ph-sign-out"></i>
+      </button>
+    </div>
+
+    <!-- VERTICAL TOOLBAR CONTAINER (filled by ChartTools) -->
+    <div id="vtoolbar-container"></div>
+
+    <!-- CHART CONTAINER (view: charts) -->
+    <div id="chart-container" class="view-panel">
+      <div id="chart-top-bar">
+        <span class="ctb-label">Symbol:</span>
+        <select id="symbol-selector"></select>
+        <span class="ctb-label" style="margin-left:12px;">Timeframe:</span>
+        <select id="tf-selector">
+          <option value="1m">1m</option>
+          <option value="5m">5m</option>
+          <option value="15m" selected>15m</option>
+          <option value="1h">1h</option>
+          <option value="4h">4h</option>
+        </select>
+        <span id="tf-candle-count"></span>
+        <button id="btn-toggle-vtoolbar" class="ctb-toggle" title="Show toolbar">
+          <i class="ph ph-caret-left"></i>
+        </button>
+        <button id="btn-expand-panel" title="Orderbook &amp; Signals">
+          <i class="ph ph-sidebar-simple"></i>
+        </button>
+      </div>
+      <div id="main-chart"></div>
+      <div id="rsi-chart"></div>
+      <div id="vol-chart"></div>
+    </div>
+
+    <!-- ALERTS VIEW (view: alerts) -->
+    <div id="view-alerts" class="view-panel" style="display:none;">
+      <div class="view-header">
+        <span class="view-title" data-i18n="dash-alerts-title">Alerts &amp; Signals</span>
+        <span class="view-subtitle" data-i18n="dash-alerts-subtitle">Real-time trading signals feed</span>
+      </div>
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label class="filter-label" data-i18n="dash-filter-symbol">Symbol:</label>
+          <select id="symbol-filter-alerts">
+            <option value="ALL">All</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" data-i18n="dash-filter-tf">Timeframe:</label>
+          <select id="tf-filter-alerts">
+            <option value="ALL" data-i18n="dash-filter-all">All</option>
+            <option value="1m">1m</option>
+            <option value="5m">5m</option>
+            <option value="15m">15m</option>
+            <option value="1h">1h</option>
+            <option value="4h">4h</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" data-i18n="dash-filter-type">Type:</label>
+          <select id="type-filter-alerts">
+            <option value="ALL">All</option>
+            <option value="RSI_OVERSOLD">RSI Oversold</option>
+            <option value="RSI_OVERBOUGHT">RSI Overbought</option>
+            <option value="RSI_DIVERGENCE">RSI Divergence</option>
+            <option value="EMA_SUPPORT_TOUCH">EMA Support</option>
+            <option value="EMA_RESISTANCE_TOUCH">EMA Resistance</option>
+            <option value="VOLUME_SPIKE">Volume Spike</option>
+            <option value="BULLISH_DIVERGENCE">Bullish Divergence</option>
+            <option value="BEARISH_DIVERGENCE">Bearish Divergence</option>
+            <option value="CONFLUENCE_LONG">Confluence Long</option>
+            <option value="CONFLUENCE_SHORT">Confluence Short</option>
+          </select>
+        </div>
+        <span id="alerts-count" class="alerts-count"></span>
+      </div>
+      <div id="signal-log-full" class="view-content signal-log-scroll"></div>
+    </div>
+
+    <!-- SCANNER VIEW (view: scanner) -->
+    <div id="view-scanner" class="view-panel" style="display:none;">
+      <div class="view-header">
+        <span class="view-title" data-i18n="dash-scanner-title">Altcoin Volume Scanner</span>
+        <span class="view-subtitle" data-i18n="dash-scanner-subtitle">Real-time volume spikes on 500+ symbols</span>
+      </div>
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label class="filter-label" data-i18n="dash-scanner-search-lbl">Symbol Search:</label>
+          <input type="text" id="vs-symbol-search" placeholder="Type symbol..." class="vs-search-input"
+            style="background:#0e111a;color:#f3f4f6;border:1px solid #222a3d;border-radius:6px;padding:4px 10px;width:140px;outline:none;font-family:'JetBrains Mono',monospace;font-size:12px;"
+            data-i18n-placeholder="dash-scanner-search-placeholder">
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" data-i18n="dash-scanner-zone-lbl">Zone:</label>
+          <select id="vs-zone-filter"
+            style="background:#0e111a;color:#f3f4f6;border:1px solid #222a3d;border-radius:6px;padding:4px 8px;font-family:'JetBrains Mono',monospace;font-size:12px;outline:none;cursor:pointer;">
+            <option value="ALL" data-i18n="dash-filter-all">All</option>
+            <option value="TREND" data-i18n="zone-trend">Trend</option>
+            <option value="REVERSAL" data-i18n="zone-reversal">Reversal</option>
+            <option value="RISKY" data-i18n="zone-risky">Risky</option>
+            <option value="BREAKOUT" data-i18n="zone-breakout">Breakout held</option>
+            <option value="FAILURE" data-i18n="zone-failure">Breakout failed</option>
+            <option value="WATCH" data-i18n="zone-watch">Watch / contested</option>
+          </select>
+        </div>
+        <span id="vs-alerts-count" class="alerts-count"
+          style="margin-left:12px;color:#6e7b9e;font-family:'JetBrains Mono',monospace;">0 alerts</span>
+        <div class="filter-group" style="margin-left:auto;">
+          <button id="btn-clear-vs-signals" class="ctb-action-btn" title="Clear scanner log"><i class="ph ph-trash"></i>
+            <span data-i18n="dash-btn-clear">Clear</span></button>
+        </div>
+      </div>
+      <div id="vs-context-plan" aria-live="polite"
+        style="padding:10px 20px;border-bottom:1px solid #222a3d;color:#aab4ca;font-size:12px;line-height:1.6;">
+        Type a symbol above to see its pre-event range plan.
+      </div>
+      <section id="vs-chart-plan" aria-label="Price map v3 research plan"
+        style="padding:10px 20px;border-bottom:1px solid #222a3d;color:#aab4ca;font-size:12px;line-height:1.6;max-height:280px;overflow-y:auto;">
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:5px;">
+          <strong data-i18n="vs-chart-title" style="color:#dbe3f4;">Price map v3</strong>
+          <span data-i18n="vs-chart-research" style="color:#f0b90b;">Research only · no trade action</span>
+        </div>
+        <div id="vs-chart-plan-body" aria-live="polite">Type a symbol above to see its price map and scenarios.</div>
+        <div id="vs-chart-last-event" aria-live="polite" style="margin-top:5px;color:#f0b90b;"></div>
+      </section>
+      <div id="vs-signal-log-full" class="view-content signal-log-scroll"
+        style="display:flex;flex-direction:column;gap:10px;padding:12px;overflow-y:auto;min-height:0;">
+        <!-- Scanner items will go here -->
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL (Config + Signals) -->
+    <div id="right-panel">
+      <h2 class="section-heading" data-target="config-body">
+        <span><i class="ph ph-sliders"></i> <span data-i18n="dash-config-title">Signal Configuration</span></span>
+      </h2>
+      <div id="config-body" class="section-body">
+        <div id="config-rsi" class="config-row">--</div>
+        <div id="config-volume" class="config-row">--</div>
+        <div id="config-ema" class="config-row">--</div>
+      </div>
+
+      <h2 class="section-heading" data-target="signal-log">
+        <span><i class="ph ph-activity"></i> <span data-i18n="dash-log-title">Signals Log</span></span>
+      </h2>
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label class="filter-label" data-i18n="dash-filter-symbol">Symbol:</label>
+          <select id="symbol-filter">
+            <option value="ALL" data-i18n="dash-filter-all">All</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" data-i18n="dash-filter-tf-short">TF:</label>
+          <select id="tf-filter">
+            <option value="ALL" data-i18n="dash-filter-all">All</option>
+            <option value="1m">1m</option>
+            <option value="5m">5m</option>
+            <option value="15m">15m</option>
+            <option value="1h">1h</option>
+            <option value="4h">4h</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" data-i18n="dash-filter-type">Type:</label>
+          <select id="type-filter">
+            <option value="ALL" data-i18n="dash-filter-all">All</option>
+            <option value="RSI_OVERSOLD">RSI Oversold</option>
+            <option value="RSI_OVERBOUGHT">RSI Overbought</option>
+            <option value="RSI_DIVERGENCE">RSI Divergence</option>
+            <option value="EMA_SUPPORT_TOUCH">EMA Support</option>
+            <option value="EMA_RESISTANCE_TOUCH">EMA Resistance</option>
+            <option value="VOLUME_SPIKE">Volume Spike</option>
+            <option value="BULLISH_DIVERGENCE">Bullish Divergence</option>
+            <option value="BEARISH_DIVERGENCE">Bearish Divergence</option>
+            <option value="CONFLUENCE_LONG">Confluence Long</option>
+            <option value="CONFLUENCE_SHORT">Confluence Short</option>
+          </select>
+        </div>
+        <div class="filter-group" style="margin-left:auto;">
+          <button id="btn-clear-signals" class="ctb-action-btn" title="Clear signal log"><i class="ph ph-trash"></i>
+            <span data-i18n="dash-btn-clear">Clear</span></button>
+        </div>
+      </div>
+      <div id="signal-log" class="section-body"></div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="ft-status">
+      <span class="ft-dot" id="ft-dot"></span>
+      <span id="ft-status-text">Connecting...</span>
+    </div>
+    <span id="ft-time">00:00 UTC</span>
+    <div class="ft-right">
+      <span id="ft-heartbeat"></span>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"
+    integrity="sha384-stKllnUqA9AD0gsKCuUtf5XlqAW7PwIgDagoNsTWkjkBmJ/GZ/uHTgEBxdLV2VSK" crossorigin="anonymous"
+    onerror="this.onerror=null;var s=document.createElement('script');s.src='/static/js/lightweight-charts.standalone.production.js';s.async=false;document.head.appendChild(s);console.warn('[UI] CDN failed, loaded local fallback')"></script>
+  <!-- MODAL POPUP FOR CHART STATIC IMAGE -->
+  <div id="chart-modal" class="vs-modal"
+    style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); align-items: center; justify-content: center; backdrop-filter: blur(8px);">
+    <div class="vs-modal-content"
+      style="position:relative;margin:auto;padding:0;width:90%;max-width:800px;background:#0e111a;border:1px solid rgba(255, 255, 255, 0.05);border-radius:12px;box-shadow:0 15px 40px rgba(0,0,0,0.6);display:flex;flex-direction:column;animation:vs-modal-zoom 0.25s cubic-bezier(0.16, 1, 0.3, 1);">
+      <div
+        style="padding:16px 20px;border-bottom:1px solid rgba(255, 255, 255, 0.05);display:flex;justify-content:space-between;align-items:center;">
+        <h3 id="chart-modal-title"
+          style="margin:0;color:#f0b90b;font-family:'Plus Jakarta Sans',sans-serif;font-size:16px;font-weight:700;">
+          Volume Spike Chart</h3>
+        <span id="chart-modal-close"
+          style="color:#6e7b9e;font-size:24px;font-weight:bold;cursor:pointer;line-height:1;margin-left:auto;transition:color 0.2s;"><i
+            class="ph ph-x"></i></span>
+      </div>
+      <div style="padding:20px;text-align:center;background:#08090c;">
+        <img id="chart-modal-img" src="" alt="Altcoin chart"
+          style="max-width:100%;max-height:60vh;border-radius:8px;border:1px solid rgba(255, 255, 255, 0.05);box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+      </div>
+      <div id="chart-modal-details"
+        style="padding:14px 20px;border-top:1px solid rgba(255, 255, 255, 0.05);color:#a3aed0;font-family:'JetBrains Mono',monospace;font-size:13px;background:#0e111a;border-bottom-left-radius:12px;border-bottom-right-radius:12px;max-height:140px;overflow-y:auto;text-align:left;line-height:1.6;">
+      </div>
+    </div>
+  </div>
+
+  <style>
+    @keyframes vs-modal-zoom {
+      from {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .vs-modal {
+      display: flex !important;
+    }
+
+    .vs-modal[style*="display: none"],
+    .vs-modal[style*="display:none"] {
+      display: none !important;
+    }
+
+    .vs-signal-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--purple);
+      border-radius: 8px;
+      padding: 14px 18px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      color: var(--text-body);
+      text-align: left;
+      font-family: inherit;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .vs-signal-card:hover {
+      transform: translateY(-2px);
+      background: var(--bg-hover);
+      border-color: var(--border-highlight);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .vs-signal-card:active {
+      transform: scale(0.98);
+    }
+
+    .vs-signal-card.LONG {
+      border-left-color: var(--green);
+    }
+
+    .vs-signal-card.SHORT {
+      border-left-color: var(--red);
+    }
+
+    .vs-signal-card.NEUTRAL {
+      border-left-color: var(--purple);
+    }
+
+    .vs-signal-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .vs-signal-symbol {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      color: var(--accent);
+    }
+
+    .vs-signal-type {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+    }
+
+    .vs-signal-info {
+      display: flex;
+      gap: 16px;
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+
+  <script src="/static/js/chart_tools.js?v=5"></script>
+  <script type="module" src="/static/js/dashboard.js?v=6"></script>
+</body>
+
+</html>

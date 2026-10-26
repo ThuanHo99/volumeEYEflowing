@@ -1,0 +1,4 @@
+{"kind":"proposal","scenario_id":"held_break","version":1,"conditions":[{"feature":"rvol","op":">=","threshold":2.0}],"action":"LONG","stop_mult":1.0,"target_r":2.0,"max_hold_minutes":15,"created_at_ms":100}
+{"kind":"decision","decision_id":"d1","symbol":"BTCUSDT","scenario_id":"held_break","version":1,"action":"LONG","decision_at_ms":200,"context_asof_ms":199,"features":{"rvol":{"value":2.5,"observed_at_ms":199}},"execution_plan":null}
+{"kind":"outcome","decision_id":"d1","scenario_id":"held_break","version":1,"action":"LONG","decision_at_ms":200,"matured_at_ms":300,"net_pct":-0.2,"execution":null}
+{"kind":"proposal","scenario_id":"held_break","version":2,"conditions":[{"feature":"rvol","op":">=","threshold":3.0}],"action":"LONG","stop_mult":1.0,"target_r":2.0,"max_hold_minutes":15,"created_at_ms":301}

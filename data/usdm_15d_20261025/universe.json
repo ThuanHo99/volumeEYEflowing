@@ -1,0 +1,5624 @@
+{
+  "source": "Binance USD-M /fapi/v1/exchangeInfo and /fapi/v1/time",
+  "archive_source": "https://data.binance.vision/data/futures/um/daily/klines",
+  "rest_source": "https://fapi.binance.com/fapi/v1/klines",
+  "frozen_at_server_ms": 1792943036111,
+  "start_ms": 1791646980000,
+  "end_ms_exclusive": 1792942980000,
+  "interval": "1m",
+  "symbols": [
+    {
+      "symbol": "0GUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758123900000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "1000000MOGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1730982600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "1000BONKUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1714633200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1700661600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "1000CATUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1729513800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "1000CHEEMSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1732535100000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "1000FLOKIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1683331200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "1000LUNCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1662620400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "1000PEPEUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1709800200000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1683244800000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1702648800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "1000SATSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1702389600000,
+      "tick_size": "0.00000001"
+    },
+    {
+      "symbol": "1000SHIBUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1711609200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1620630000000,
+      "tick_size": "0.000001"
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1631775600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "1INCHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1608879600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "1MBABYDOGEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1726486500000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "2ZUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759408200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "4USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759923000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "AAOIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780910700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AAPLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775483400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AAVEUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1750062600000,
+      "tick_size": "0.010"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1602831600000,
+      "tick_size": "0.010"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1702893600000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "ACHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1676962800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ACNUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790673000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ACTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1731327300000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ACUUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1768999500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ADAUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1741256100000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1580457600000,
+      "tick_size": "0.00010"
+    },
+    {
+      "symbol": "ADBEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781169900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AEROUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733321700000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "AEVOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1710336600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1690597800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "AGPUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1789723800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AGTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1747737000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1768907700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1777472100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AINUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1752144300000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746016200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AIOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1755084600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AIXBTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734719400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AKAMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1791278100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758889800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "AKTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1731929400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ALABUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782135600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ALCHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1736250300000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1592298000000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "ALICEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1615791600000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "ALLOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762869600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ALLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1754472600000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "ALPINEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746524700000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "ALTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1706191200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "AMATUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780909800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AMCUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1789722300000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "AMDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778074200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AMZNUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770648000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ANETUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1789722900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ANIMEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737651600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ANKRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1611558000000,
+      "tick_size": "0.000001"
+    },
+    {
+      "symbol": "ANTHROPICUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780374600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "APEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1647500400000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "API3USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1645426800000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "APLDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1789723500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "APPUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783673100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "APRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1761215400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "APTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1666076400000,
+      "tick_size": "0.00010"
+    },
+    {
+      "symbol": "ARBUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1713423600000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1679554800000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "ARCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737118800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756897200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ARKMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1690512300000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ARKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1695133800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ARMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779802800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ARPAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1634540400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ARUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1632812400000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "ARXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782189900000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ASMLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781170800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ASRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746523800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "ASTERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758283200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ASTRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1676271600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ASTSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780322100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ATHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1743608700000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1581077400000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "ATUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1761737400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "AUCTIONUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1702645200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "AUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1748419200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737119700000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "AVAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734094800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "AVAXUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1710918000000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1600844400000,
+      "tick_size": "0.0010"
+    },
+    {
+      "symbol": "AVGOUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1776692400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AVNTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1757430000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AWEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1747814400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AXLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1709307000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "AXSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1605855600000,
+      "tick_size": "0.00010"
+    },
+    {
+      "symbol": "AXTIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780911300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "AZTECUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770784200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "B2USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746538200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "BABAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1776693000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BABYUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1743859800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BACUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1792573500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BANANAS31USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742634900000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BANANAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1723687200000,
+      "tick_size": "0.0010000"
+    },
+    {
+      "symbol": "BANDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1596006000000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1745001000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BANUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1731929400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BARDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758193200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "BASEDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1774864800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BASUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756215000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BATUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1581581100000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "BBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1715603400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BBXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780321200000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "BCHUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1712214000000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "BCHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1576745700000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1700227800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762949700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BELUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1605682800000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "BERAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1738854000000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "BEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779803100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BICOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1695904200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1697121000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BILLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778141700000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BIOUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1756106100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BIOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1735906500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769663700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BITOUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1785159600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758619800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1761046200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BLURUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1682553600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BMNRUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781169300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BMTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742218200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BNBUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1704285600000,
+      "tick_size": "0.010"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1581321600000,
+      "tick_size": "0.010"
+    },
+    {
+      "symbol": "BNCUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783607100000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "BNTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1691668800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "BOMEUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1714028400000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "BOMEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1710592200000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "BOTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783605600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BRETTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1724150100000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BREVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1767091500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BRKBUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779112200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BROCCOLI714USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742547600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742548500000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "BRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742561100000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "BSBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1774439100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BSPUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782985800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BSVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1697805000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BTCDOMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1623913200000,
+      "tick_size": "0.1"
+    },
+    {
+      "symbol": "BTCU",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "U",
+      "onboard_ms": 1782896400000,
+      "tick_size": "0.10"
+    },
+    {
+      "symbol": "BTCUSD1",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USD1",
+      "onboard_ms": 1779094800000,
+      "tick_size": "0.10"
+    },
+    {
+      "symbol": "BTCUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1704285000000,
+      "tick_size": "0.1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1567965300000,
+      "tick_size": "0.10"
+    },
+    {
+      "symbol": "BTCUSDT_261225",
+      "contract_type": "CURRENT_QUARTER",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782460800000,
+      "tick_size": "0.1"
+    },
+    {
+      "symbol": "BTCUSDT_270326",
+      "contract_type": "NEXT_QUARTER",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790323200000,
+      "tick_size": "0.1"
+    },
+    {
+      "symbol": "BTRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756290600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780582500000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1751619600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "BUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1747931400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "BWETUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790672700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780909200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BYDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788746400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "BZUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775034600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "C98USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1629702000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CAKEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1698929100000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782560700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CARVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1754585100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CATIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1726831800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CATUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782984000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CBRSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779183000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1761912000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CEGUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1792573200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CELOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1632639600000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "CELRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1617001200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "CETUSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1730901600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CFGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1773666000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "CFXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1676790000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CGPTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734722100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CHILLGUYUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1732718700000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1776323700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CHRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1615532400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CHZUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1611212400000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "CIENUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782136200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CKBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1677481200000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "CLANKERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762948800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760441400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775034000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "COAIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758785400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "COHRUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779803400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "COINUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770649200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "COLLECTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1767186900000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "COMPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1593507600000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "COOKIEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1736249400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "COPPERUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1772787600000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "COSTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780995900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "COTIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1615273200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "COWUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1730899800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "CRCLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770648600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CRDOUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780910400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CRMLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790672400000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "CRMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780478100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CROSSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1752143400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CRVUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1720076400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "CRVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1598943600000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "CRWDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780910100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CRWVUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779111000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CSCOUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778853000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CSOPSAMSUNG2LUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786414500000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "CSOPSKHYNIX2LUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786414200000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "CTKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746008100000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "CTRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779960600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "CTSIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1635145200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790840700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1752570000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CVCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1747384200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "CVNAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790586600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "CVXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753270200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "CXMTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787029200000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "CYBERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1692619200000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "CYPHUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1789722600000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "CYSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1765537200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "DASHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1580803500000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "DATAIPUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1783061400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "DATAIPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783061100000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "DDOGUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788343800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "DEEPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1745310600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "DELLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780477200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1735039800000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "DIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1727872200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "DISUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778852400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "DJTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787649300000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "DKNGUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781082300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "DODOXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1691496000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "DOGEUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1705572000000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1594371600000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "DOGSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1724675400000,
+      "tick_size": "0.00000001"
+    },
+    {
+      "symbol": "DOLOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746068400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "DOODUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746797400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "DOSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786460400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "DOTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1598079600000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "DRAMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779112800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "DRIFTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1731080700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "DUSKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1641452400000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "DYDXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1631170800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "DYMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1707289200000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "EBAYUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780996800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "EDENUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759230000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1773928800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "EDUUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1682640000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "EGLDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1600066800000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "EIGENUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1727762400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ELSAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769066700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ENAUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1714633200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ENAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1712061000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ENJUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1601362800000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "ENSOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760432400000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "ENSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1638169200000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "status_at_freeze": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1741852800000,
+      "delivery_ms": 1792486800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "ERAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1752766200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753783200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ESPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770711000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1579161600000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "ETHBTC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "BTC",
+      "onboard_ms": 1684972800000,
+      "tick_size": "0.000001"
+    },
+    {
+      "symbol": "ETHFIUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1714634100000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ETHFIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1710775800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ETHU",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "U",
+      "onboard_ms": 1782900000000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "ETHUSD1",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USD1",
+      "onboard_ms": 1783069200000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "ETHUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1704285300000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1574840700000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "ETHUSDT_261225",
+      "contract_type": "CURRENT_QUARTER",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782460800000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "ETHUSDT_270326",
+      "contract_type": "NEXT_QUARTER",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790323200000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "ETHWUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1701174600000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "EULUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760365800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759487400000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "EWJUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1773927000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "EWTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780321800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "EWYUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1773667800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "EWZUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781083500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "FARTCOINUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734720300000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "FETUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1673766000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "FFUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759152600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "FHEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1744470000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "FIDAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1726749000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "FIGHTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769170500000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "FILUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1713425400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "FILUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1602828000000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "FLEXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782984600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "FLNCUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779112500000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "FLOCKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1757400300000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "FLOWUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1644390000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "FLUIDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758708900000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "FLUXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1725346800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "FOGOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1768053600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "FOLKSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762432200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "FORMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742371200000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "FRAXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1768464000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "FUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1750250700000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "FWDIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783607400000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "GALAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1631862000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "GASUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1698201900000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "GDXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786973400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GENIUSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1776310200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "GEVUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783672200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GIGADEVUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1785735000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GIGGLEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760003100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GLMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1708596000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "GLWUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781170200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GMEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781082900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GMTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1647241200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "GMXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1676530800000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "GOATUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1729776600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "GOOGLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1774536600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GPROUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788443100000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "GPSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1739811600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "GRAMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782979200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1731079800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "GRIFFAINUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1735824600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "GRTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1608274800000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "GRVTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1785501900000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "GSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1785315900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GTCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1615791600000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "GTLBUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788345000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "GUAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1766312100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "GUNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1743426000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "GUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1723725000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769664600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "HAEDALUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746069300000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "HANAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758886200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "HANMIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786673400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HBARUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1741342500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "HBARUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1615964400000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "HDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778853300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HEIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1739437200000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756441800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "HIMSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780996500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HIVEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734953400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "HK0625USDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788230700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HK0700USDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784689200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HK0992USDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788746700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HK1810USDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784689500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1727353800000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "HOLOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1757592000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1749555000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "HOODUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770043500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HOTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1617087600000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "HPEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780909500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1748264400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "HUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1750843800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "HUTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1789723200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "HYPERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1745326800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1748601000000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "HYUNDAIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780370400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "IBKRUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1792573800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "IBMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780477500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1751547600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1627628400000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1751620500000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "IDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1679529600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ILVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1699633800000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "IMXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1644476400000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "INITUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1744785000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "INJUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1660633200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "INTCUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770042600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "INTWUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783606200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "INUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1754562600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "INXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769799600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "IONQUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787908200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1582272300000,
+      "tick_size": "0.00000010"
+    },
+    {
+      "symbol": "IOTAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1581494400000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "IOTXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1628665200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "IOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1718114400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "IRENUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780478400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "IRYSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1764172800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "IWMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780911000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "JASMYUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1650351600000,
+      "tick_size": "0.000001"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762770600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1743004800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "JOEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1679961600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "JPMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779111600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "JSTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1745832600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "JTOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1702029600000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "JUPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1706725800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733320800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "KAITOUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1741168800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1740056400000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "KASUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1700186400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "KATUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1772427600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "KAVAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1595919900000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "KERNELUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1744632000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "KGENUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759847400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "KITEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1761733800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "KLACUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782135300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "KMNOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734721200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "KNCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1592815800000,
+      "tick_size": "0.00010"
+    },
+    {
+      "symbol": "KODEX200USDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786674300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "KOMAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733832900000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "KORUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782136500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "KOUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786006800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "KSMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1602658800000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "KSTRUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782985500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "KUAISHOUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786413600000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "LABUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760711400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "LAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1749114000000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "LAYERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1739288700000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "LDOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1663743600000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "LGELECTRONICSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786673700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "LIGHTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758972600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "LINEAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756715400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "LINKUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1708072200000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1579248000000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1718886600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "LITEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778851800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "LITUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1766511000000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "LLYUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780320600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "LPTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1636527600000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "LQTYUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1678258800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "LRCXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782135000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "LSKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1706192100000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "LTCUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1712818800000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1578557100000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734521400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "LUNA2USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1662706800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "LYNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759735800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "LYTEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786974600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MAGICUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1674457200000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1767187800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MANAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1615705200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1705586400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MANTRAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1772611200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "MARAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787908500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788255900000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MASKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1626418800000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "MAVIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1743008400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MAVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1688040000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "MCDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1791277800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MDBUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788344400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MDTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1792574400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MEGAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769775300000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MEITUANUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786413900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MELANIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737365400000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "MEMEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1699012800000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "MERLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1748507400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "METAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1774535400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "METISUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1710232200000,
+      "tick_size": "0.0010"
+    },
+    {
+      "symbol": "METUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760185800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "MEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733850000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MEWUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1718632800000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "MINAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1675407600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MINIMAXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784257200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MIRAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758888000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MITOUSDT",
+      "status_at_freeze": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756398600000,
+      "delivery_ms": 1792746000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MMTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762257600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "MOCAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734348600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "MONUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760080500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MOODENGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1729850400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MOONSHOTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790065800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MORPHOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1732717800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "MOVEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733752800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1703593800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "MPUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790673300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MRKUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787907900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MRNAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787649600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MRVLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778853900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MSFTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1776691800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MSTRUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770647400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MSTUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1791795900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MTLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1617174000000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742219100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "MUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1751880600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "MUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775568600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MUUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784192400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MVLLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782740100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "MYXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1750249800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "NAORISUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753965000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "NATGASUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775035200000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "NAVERUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786674000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NBISUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779802200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NEARUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1712819700000,
+      "tick_size": "0.0010"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1602748800000,
+      "tick_size": "0.0010"
+    },
+    {
+      "symbol": "NEIROUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1726486200000,
+      "tick_size": "0.00000001"
+    },
+    {
+      "symbol": "NEOUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1713424500000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "NEOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1581929100000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "NETUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786973700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NEWTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1750343400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "NFLXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780995600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NIGHTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1765364400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "NILUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742821200000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "NKEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790674200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NMRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1687435200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "NOKUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780321500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NOMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759305600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "NOTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1715868000000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "NOWUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780477800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NVDAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1774536000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NVDLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788343200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NVOUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780320900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "NXPCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1747290600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "OGNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1617174000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "OGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1747040400000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "OKLOUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790586000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1705755600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ONDSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780478700000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "ONEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1615964400000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "ONGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1701090000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ONTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1581408300000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "ONUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1761294600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "OPENAIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779784200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "OPENUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1757336400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "OPGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1776871800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "OPNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1771686000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "OPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1654066800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ORCAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733497200000,
+      "tick_size": "0.0010000"
+    },
+    {
+      "symbol": "ORCLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778852100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758890700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ORDIUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1708585200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1699360200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "OURAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790152200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "OUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782301500000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "PANWUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784625000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "PARTIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742907600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PATHUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1789722000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1743071400000,
+      "tick_size": "0.0100"
+    },
+    {
+      "symbol": "PAYPUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1774276200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "PDDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787908800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "PENDLEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1690511400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "PENGUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784625300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "PENGUUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1753255800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734452100000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "PEOPLEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1640242800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "PHAROSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778735700000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "PHAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1735558200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1763119800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737713700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PIXELUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1708354800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "PLAYUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753954200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PLTRUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770649800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "PLUMEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742562000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PNUTUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1741341600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PNUTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1731328200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "POLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1726229700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "POLYXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1698201000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PONSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788677100000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "POPCATUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1724331600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "POPMARTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784773800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1709218800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "POWERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1765011600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "POWRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1698373800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PREDICTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1792916100000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "PRLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775039400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "PROMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1736944200000,
+      "tick_size": "0.0010000"
+    },
+    {
+      "symbol": "PROVEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1754413200000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "PTBUSDT",
+      "status_at_freeze": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756902600000,
+      "delivery_ms": 1792746000000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "PUMPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1752132600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "PUNDIXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746007200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "PYPLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1785315600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "PYTHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1700663400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "QCOMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778074500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "QNTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1666076400000,
+      "tick_size": "0.010000"
+    },
+    {
+      "symbol": "QNTXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780042500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "QQQUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775482200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "QTUMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1582185900000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "QUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756798200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "RAMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787649000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "RAREUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1723726800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1765726200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "RAYSOLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733832000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "RDDTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786007100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "RDWUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1791796500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "RECALLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760531400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "REDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1741276800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "RENDERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1721988000000,
+      "tick_size": "0.0010000"
+    },
+    {
+      "symbol": "RESOLVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1749562200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "REUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781791200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "REZUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1714485600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1697891400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "RIVERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760712300000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "RIVNUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781082600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "RKLBUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779113100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "RLCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1596178800000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "ROBOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1772181900000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "RONINUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1707193800000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "ROSEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1640934000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "RPLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1725885000000,
+      "tick_size": "0.0010000"
+    },
+    {
+      "symbol": "RSRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1603091100000,
+      "tick_size": "0.000001"
+    },
+    {
+      "symbol": "RUMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790586900000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "RUNEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1599203400000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "RVNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1614063600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SAFEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1729859400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1712658600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SAHARAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1750939200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SAMSUNGEMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786673100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SAMSUNGUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780369800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SANDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1610953200000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "SANTOSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1730124000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "SAPIENUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1755711000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SCRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1729591200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SECZUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790673600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SEIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1692239400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SENTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1763124300000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SFPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1614150000000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "SHAZUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784624400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1739812500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SHOPUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786974300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SIGNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1745838000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742634000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SKDDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787648700000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "SKHYNIXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780369200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SKHYUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783698600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SKLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1598252400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SKRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769078700000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SKUUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787648400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1747129500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SKYUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1757401200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SLPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753271100000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "SLXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780299000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SMCIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782135900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SMHUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1785316200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SNDKUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775569200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SNOWUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783672800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SNPSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1791796200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SNXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1597388400000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "SNXXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783606500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SOFIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784624700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SOLUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1704285900000,
+      "tick_size": "0.0100"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1600066800000,
+      "tick_size": "0.0100"
+    },
+    {
+      "symbol": "SOLVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737116100000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SOMIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756114200000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "SONICUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1736319600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SONYUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782136800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SOONUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1747989000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1748437200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778853600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SOXSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784192700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SPACEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769168700000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SPCXUSD1",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USD1",
+      "onboard_ms": 1784538000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SPCXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779338700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SPELLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1662361200000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "SPKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1750150800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SPORTFUNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1768571100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SPXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733834700000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "SPYUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775482800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SQDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1749645900000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SQQQUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782740700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SSVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1677135600000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "STABLEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762430400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "STARUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778736600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "STBLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758087900000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "STEEMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1699453800000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "STOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1744469100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "STRCUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782983700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1708448400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "STXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1676876400000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "STXXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781170500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "SUIUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1707375600000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1683072000000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "SUNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1724331900000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SUPERUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1701003600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737021600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1599202800000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "SWARMSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1736252100000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SXTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746174600000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1723811400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "SYRUPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1746606600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TACUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1752575400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "TAGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753442100000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1749645000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1756898100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TAOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1712845800000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "TAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753083000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TBTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1785159300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TEAMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788344100000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TEMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787907600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TENCENTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784689800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TERUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782984900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "THETAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1590566400000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "THEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1732709700000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TIAUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1714029300000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "TIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1698769800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1680048000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "TMFUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1785159000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TNSRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1712595600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TOSHIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758087000000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "TOWNSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1754404200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "TQQQUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782740400000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TRADOORUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1758285000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "TRBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1599116400000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "TREEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753797600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1770380100000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "TRUMPUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1741255200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737205200000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "TRUSTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762335000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759320000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "TRXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1579075500000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "TSLAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769610600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TSLLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788343500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TSMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1775484000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TSTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1739106000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TTWOUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782985200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TURBOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1717083000000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "TURTLEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1761145200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1675148400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "TUTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1742461200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "TWSTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790586300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TWTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1699021800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "TXNUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1782984300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "TZAUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784193000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "UAIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1762428600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "UBERUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778852700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "UBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1757673000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "UMAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1683590400000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "UNHUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790673900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "UNITREEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1787107500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "UNIUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1750063500000,
+      "tick_size": "0.0010"
+    },
+    {
+      "symbol": "UNIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1600412400000,
+      "tick_size": "0.0010"
+    },
+    {
+      "symbol": "URNMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780996200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "USARUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1778074800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "USDBRLUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1789999200000,
+      "tick_size": "0.00010"
+    },
+    {
+      "symbol": "USDCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1678579200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "USDEXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1791277200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1755260100000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "USTCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1701088200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "USUALUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734526800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "USUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1765536300000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "UVXYUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781169600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "VANAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734355800000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "VELODROMEUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1734106500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1752570900000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "VETUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1581667200000,
+      "tick_size": "0.000001"
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1733833800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "VKTXUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1791277500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "VRTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783672500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "VSTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786974000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "VTHOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1737538200000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "VUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779111900000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "VVVUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1738138500000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "WALUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1743089400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "WAXPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1697640300000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "WCTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1744714800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "WDCUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779802500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "WENUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783605900000,
+      "tick_size": "0.00100"
+    },
+    {
+      "symbol": "WETUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1765350000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "WIFUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1712214900000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "WIFUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1705587300000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "WLDUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1710399600000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "WLDUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1690200000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "WLFIUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1757320200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1755937800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "WMTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1779111300000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "WOOUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1649314800000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "WUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1712158200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "XAGUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1767780000000,
+      "tick_size": "0.0100"
+    },
+    {
+      "symbol": "XAIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1704808800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "XANUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1759141800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1774533600000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "XAUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1765440300000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "XBIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1783606800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "XLEUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781083200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "XLMUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1579507200000,
+      "tick_size": "0.00001"
+    },
+    {
+      "symbol": "XMRUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1580716800000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "XNYUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1755085500000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "XOMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1790587200000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "XPDUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769768100000,
+      "tick_size": "0.0100"
+    },
+    {
+      "symbol": "XPINUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1757664000000,
+      "tick_size": "0.0000001"
+    },
+    {
+      "symbol": "XPLUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1755855000000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "XPTUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769767200000,
+      "tick_size": "0.0100"
+    },
+    {
+      "symbol": "XRPUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1704286200000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1578298800000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "XTZUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1580976000000,
+      "tick_size": "0.000100"
+    },
+    {
+      "symbol": "XVGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1688558400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "XVSUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1681257600000,
+      "tick_size": "0.001000"
+    },
+    {
+      "symbol": "YBUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760107500000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "YFIUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1598857200000,
+      "tick_size": "1"
+    },
+    {
+      "symbol": "YGGUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1691206200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ZAMAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1767949200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ZBTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760700600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ZCSHUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1791795600000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ZECUSDC",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDC",
+      "onboard_ms": 1763548200000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "ZECUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1580889600000,
+      "tick_size": "0.01"
+    },
+    {
+      "symbol": "ZENUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1606201200000,
+      "tick_size": "0.001"
+    },
+    {
+      "symbol": "ZEREBROUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1735826400000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ZESTUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1780581600000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ZETAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1706862600000,
+      "tick_size": "0.000010"
+    },
+    {
+      "symbol": "ZHIPUUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1784257500000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ZHONGJIUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1786672800000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ZILUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1592470800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ZKCUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1757944800000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ZKPUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1766311200000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "ZKUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1718622000000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ZMUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1781082000000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "ZORAUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1753441200000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "ZROUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1718893800000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "ZRXUSDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1592989200000,
+      "tick_size": "0.0001"
+    },
+    {
+      "symbol": "ZSUSDT",
+      "contract_type": "TRADIFI_PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788344700000,
+      "tick_size": "0.01000"
+    },
+    {
+      "symbol": "哈基米USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788678900000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "币安人生USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1760958000000,
+      "tick_size": "0.0001000"
+    },
+    {
+      "symbol": "我踏马来了USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1769005800000,
+      "tick_size": "0.0000010"
+    },
+    {
+      "symbol": "牛来USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1788089400000,
+      "tick_size": "0.0000100"
+    },
+    {
+      "symbol": "龙虾USDT",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "onboard_ms": 1773228600000,
+      "tick_size": "0.0000100"
+    }
+  ],
+  "archive_days": [
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24"
+  ],
+  "warmup_start_ms": 1791474180000,
+  "universe_definition": "TRADING at initial freeze plus SETTLING with delivery during scored window"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "type": "signal",
+    "signal_type": "RSI_OVERBOUGHT",
+    "level": "WARNING",
+    "tf": "15m",
+    "close": 51000.0,
+    "rsi14": 78.0,
+    "ema200": 49000.0,
+    "volume": 5.0,
+    "timestamp": 1700000120000,
+    "detail": "RSI 15m = 78.0 (nguong qua mua: 75)"
+  }
+]

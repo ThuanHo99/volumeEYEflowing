@@ -1,0 +1,3 @@
+{"kind":"candidate","symbol":"BTCUSDT","ts":1700001180000,"attempt_side":"LONG","setup":"breakout","level":101.0,"event_close":102.0,"rvol":4.0,"baseline":"rolling (provisional)","delta_pct":-75.0}
+{"kind":"confirmed","symbol":"BTCUSDT","event_ts":1700001180000,"ts":1700001240000,"direction":"LONG","scenario":"BREAKOUT","level":101.0,"price":101.5,"invalidation":100.9495,"rvol":4.0,"baseline":"rolling (provisional)","delta_pct":-75.0,"cvd":-300.0}
+{"kind":"outcome","symbol":"BTCUSDT","event_ts":1700001180000,"confirmed_ts":1700001240000,"ts":1700001540000,"horizon_candles":5,"direction":"LONG","return_pct_gross":0.49261083743842365,"max_favorable_pct":0.9852216748768473,"max_adverse_pct":-0.9852216748768473}

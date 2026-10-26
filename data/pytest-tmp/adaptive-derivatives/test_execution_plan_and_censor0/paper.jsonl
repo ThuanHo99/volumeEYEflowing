@@ -1,0 +1,3 @@
+{"kind":"proposal","scenario_id":"held_break","version":1,"conditions":[{"feature":"rvol","op":">=","threshold":2.0}],"action":"LONG","stop_mult":1.0,"target_r":2.0,"max_hold_minutes":15,"created_at_ms":100,"rationale":""}
+{"kind":"decision","decision_id":"d1","symbol":"BTCUSDT","scenario_id":"held_break","version":1,"action":"LONG","decision_at_ms":200,"context_asof_ms":199,"features":{"rvol":{"value":2.5,"observed_at_ms":199}},"execution_plan":{"invalidation":99.0,"planned_target":103.0,"tick_size":0.01,"cost_pct":0.2}}
+{"kind":"censored","decision_id":"d1","scenario_id":"held_break","version":1,"matured_at_ms":300,"reason":"censored_gap"}

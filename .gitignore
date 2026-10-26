@@ -1,0 +1,15 @@
+.env
+.vscode/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+data/*.json
+data/*.jsonl
+static/charts/*.png
+.coverage
+.pytest_cache/
+settings.json

@@ -1,0 +1,35 @@
+{
+  "purpose": "exploratory forward paper replay; not portfolio P&L or validated edge",
+  "symbol": "BTCUSDT",
+  "start_ms": 1791646980000,
+  "end_ms_exclusive": 1792942980000,
+  "tick_size": 0.1,
+  "scored_bars": 21600,
+  "coverage": {
+    "bars_total_with_warmup": 24480,
+    "bars_scored": 21600,
+    "first_bar_ts": 1791474180000,
+    "last_bar_ts": 1792942920000,
+    "gap_count": 0,
+    "missing_source_days": [],
+    "source_days": {
+      "archive": 17,
+      "rest": 1
+    },
+    "malformed_packages": 0,
+    "conflicting_duplicate_bars": 0,
+    "median_quote_volume_per_scored_minute": 3385573.6407
+  },
+  "ledger_counts": {
+    "proposal": 1,
+    "decision": 312,
+    "outcome": 312
+  },
+  "model_attempts": [],
+  "paper_outcomes": {
+    "count": 312,
+    "mean_net_pct_per_trial": -0.201034456831132,
+    "median_net_pct_per_trial": -0.190056629410228,
+    "positive_fraction": 0.019230769230769232
+  }
+}
